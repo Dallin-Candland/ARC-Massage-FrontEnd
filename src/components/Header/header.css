@@ -18,12 +18,12 @@ header {
 .titleTop {
   margin-top: 5px;
   color: rgb(100, 177, 177);
-  font-size: 3.5em;
+  font-size: 1.5em;
 }
 
 .titleBot {
   color: rgb(89, 233, 233);
-  font-size: 1.75em;
+  font-size: .75em;
 }
 
 /* ##### Nav ##### */
