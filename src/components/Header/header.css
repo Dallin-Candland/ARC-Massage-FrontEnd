@@ -44,14 +44,12 @@ header {
 .linkComponent {
   text-decoration: none;
   color: grey;
-  /* margin: 15px; */
   padding: 15px 30px;
 }
 
 .linkComponent:hover {
   background-color: rgb(174, 174, 175);
   color: rgb(243, 219, 154);
-  /* padding: 15px; */
 }
 
 .navContainer {
@@ -63,13 +61,6 @@ header {
 }
 
 /* ##### Book App Link ##### */
-
-/* .bookApp {
-  margin: 20px;
-  padding: 15px 30px;
-  border-radius: 10px;
-  background-color: rgb(89, 233, 233);
-} */
 
 .bookAppLink {
   text-decoration: none;
