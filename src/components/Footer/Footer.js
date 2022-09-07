@@ -25,7 +25,7 @@ export default function Footer(props) {
               Renton, WA, 98057, US
             </div>
             <span>
-              <i class="bi bi-envelope"></i>{" "}
+              <i className="bi bi-envelope"></i>{" "}
             </span>
             <a
               className="emailLink"

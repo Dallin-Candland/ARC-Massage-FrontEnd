@@ -6,9 +6,11 @@ import Location from "../Location/Location";
 import Main from "../Main/Main";
 import Services from "../Services/Services";
 
+import './landing.css'
+
 export default function Landing(props) {
   return (
-    <>
+    <div className='landingPage'>
       <Header />
 
       <Routes>
@@ -25,6 +27,6 @@ export default function Landing(props) {
       </Routes>
 
       <Footer />
-    </>
+    </div>
   );
 }
