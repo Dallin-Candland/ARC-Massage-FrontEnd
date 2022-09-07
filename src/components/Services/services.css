@@ -1,0 +1,59 @@
+.cardImage {
+  /* height: 120px; */
+  /* width: 100%; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* border: red solid 5px; */
+
+
+  height: 170px;
+  width: 170px;
+  margin: 0px 86px;
+  border-radius: 50%;
+  border: rgb(0, 0, 0) solid 2px;
+  margin-top: 10px;
+  position: relative;
+  top: 130px;
+  z-index: 1;
+  object-fit: cover;
+}
+
+.card {
+  /* border: red solid 5px; */
+  padding-top: 140px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 400px;
+}
+
+.priceButton {
+  border: rgb(221, 212, 215) solid 2px;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-left: 38%;
+  color: rgb(110, 116, 158);
+  text-decoration: none;
+}
+
+.serviceContainer {
+  width: 1024px;
+  margin: auto;
+}
+
+.servicesTitle {
+  color: rgb(108, 116, 159);
+}
+
+.bookAppContainer {
+  margin-top: 30px;
+  padding: 80px 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.bookAppointment {
+  background-color: rgb(221, 212, 215);
+  border-radius: 5px;
+  padding: 10px 18px;
+  margin-left: 44%;
+  color: black;
+  text-decoration: none;
+}
