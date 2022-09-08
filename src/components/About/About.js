@@ -30,7 +30,7 @@ export default function About(props) {
   });
 
   return (
-    <>
+    <div className='aboutContainer'>
       <section className="width1024 introSection">
         {introSection}
         <div className="introButton">Email</div>
@@ -58,6 +58,6 @@ export default function About(props) {
         <h2 className="policyIntro">Policies and Information.</h2>
         {policySection}
       </section>
-    </>
+    </div>
   );
 }

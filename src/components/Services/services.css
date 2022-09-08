@@ -10,12 +10,13 @@
   width: 170px;
   margin: 0px 86px;
   border-radius: 50%;
-  border: rgb(0, 0, 0) solid 2px;
+  /* border: rgb(0, 0, 0) solid 2px; */
   margin-top: 10px;
   position: relative;
   top: 130px;
   z-index: 1;
   object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card {

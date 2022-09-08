@@ -3,6 +3,10 @@
   margin: auto;
 }
 
+.aboutContainer {
+  padding-bottom: 40px;
+}
+
 /* ##### Intro ##### */
 .introSection {
   margin-top: 50px;
