@@ -1,0 +1,109 @@
+.width1024 {
+  width: 1024px;
+  margin: auto;
+}
+
+/* ##### Intro ##### */
+.introSection {
+  margin-top: 50px;
+}
+
+/* ANY MODIFICATIONS MUST BE CHANGED AS WELL BELOW */
+div + .infoParagraph {
+  color: rgb(108, 116, 158);
+  /* border: red solid 5px; */
+  font-size: 2em;
+  padding: 5px 0;
+}
+
+/* RESET ANY MODIFICATIONS FROM ABOVE */
+div + div + .infoParagraph {
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+  /* border: red solid 5px; */
+}
+
+.introButton {
+  background-color: rgb(108, 116, 158);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 9px 15px;
+  font-size: 1.4em;
+  margin: 40px 15px 50px 0;
+  display: inline-block;
+}
+
+.introButton:hover {
+  color: black;
+  background-color: rgb(219, 215, 215);
+}
+
+/* ##### Hours ##### */
+
+.hours {
+  background-color: rgb(221, 212, 215);
+  padding-bottom: 40px;
+}
+
+.busHours {
+  font-size: 2em;
+  color: rgb(108, 116, 158);
+  padding: 40px 0;
+  /* border: red solid 5px; */
+}
+
+.busHours > span {
+  margin-left: 20px;
+}
+
+.gridItem {
+  margin: 10px 10px 10px 0;
+}
+
+.hourDay {
+  font-weight: bold;
+}
+
+/* ##### contact ###### */
+
+.contactSection {
+  padding: 50px 0;
+}
+
+.line {
+  width: 150px;
+  border-bottom: 1.5px solid black;
+  margin: 30px 0;
+}
+
+.appContact {
+  font-size: 2em;
+  font-weight: 350;
+}
+
+.phoneNumber {
+  text-decoration: underline;
+}
+
+
+/* ##### Policy ##### */
+
+.poicySection {
+  margin-top: 30px;
+}
+
+.policyTitle {
+  border-bottom: 2px solid rgb(221, 212, 215);
+  width: fit-content;
+  margin: 10px 0;
+  font-size: 1.7em;
+}
+
+.policyInfo {
+  padding: 5px 0;
+}
+
+.policyIntro {
+  color: rgb(108, 116, 158);
+  font-weight: 400;
+}
