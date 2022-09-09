@@ -1,0 +1,56 @@
+footer {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.navContainer2 > span:first-child {
+  margin-left: -30px;
+}
+
+.navContainer2 > span:last-child {
+  margin-right: 15px;
+}
+
+.linkComponent2 {
+  text-decoration: none;
+  color: grey;
+  padding: 10px 20px;
+}
+
+.linkComponent2:hover {
+  background-color: rgb(174, 174, 175);
+  color: rgb(243, 219, 154);
+}
+
+.navContainer2 {
+  display: inline-block;
+  padding: 15px 0px;
+}
+
+.navContainerFooter {
+  display: inline-block;
+}
+
+.footerContainer {
+  width: 70%;
+  margin: auto;
+}
+
+.footerBusName {
+  /* display: inline-block; */
+  float: right;
+  font-size: 1.2em;
+}
+
+.busInfo > div:first-child {
+  font-size: larger;
+  margin-top: 10px;
+}
+
+.busInfo > div {
+  margin-bottom: 10px;
+}
+
+.emailLink {
+  color: black;
+}

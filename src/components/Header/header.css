@@ -1,0 +1,82 @@
+.logo {
+  /* width: 120px; */
+  margin: 5px;
+}
+
+header {
+  width: 100%;
+  margin-top: 5px;
+  /* box-shadow: 0px 5px 5px rgb(204, 204, 204); */
+  /* box-shadow: 10px 5px 5px red; */
+  /* opacity: 0.5; */
+}
+
+.h1 {
+  display: inline-block;
+  position: absolute;
+  top: 110;
+}
+
+.titleTop {
+  margin-top: 5px;
+  color: rgb(40, 54, 107);
+  font-size: 1.5em;
+}
+
+.titleBot {
+  color: rgb(173, 145, 153);
+  font-size: .75em;
+}
+
+/* ##### Nav ##### */
+
+.navHeader {
+  float: right;
+  padding-right: 20px;
+  padding-top: 35px;
+  
+}
+
+.navContainer > span:first-child {
+  margin-left: 15px;
+}
+
+.navContainer > span:last-child {
+  margin-right: 15px;
+}
+
+.linkComponent {
+  text-decoration: none;
+  color: rgb(241, 241, 241);
+  padding: 15px 30px;
+}
+
+.linkComponent:hover {
+  background-color: rgb(174, 174, 175);
+  color: rgb(78, 77, 75);
+}
+
+.navContainer {
+  display: inline-block;
+  border-radius: 50px;
+  padding: 15px 0px;
+  text-shadow: 1px 1px #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(159, 161, 161, 0.3);
+}
+
+/* ##### Book App Link ##### */
+
+.bookAppLink {
+  text-decoration: none;
+  margin: 20px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: RGB(221, 212, 215);
+  color: #000000;
+}
+
+.bookAppLink:hover {
+  background-color: rgba(159, 161, 161, 0.3);
+  color: rgb(255, 255, 255);
+}

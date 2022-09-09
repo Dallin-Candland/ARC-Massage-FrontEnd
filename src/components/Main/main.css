@@ -1,0 +1,67 @@
+.main {
+  height: 100vh;
+  text-align: center;
+}
+
+.opening {
+  height: 40vh;
+  margin: auto;
+}
+
+
+/* ##### Button to book massage ##### */
+.MTSessionButton {
+  margin: 10px;
+  padding: 5px;
+  float: left;
+  text-decoration: none;
+  padding: 10px;
+  border: rgb(255, 255, 255) solid 2px;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+}
+
+.MTSessionButton:hover {
+  border: rgb(255, 255, 255) solid 3px;
+  padding: 9px;
+  background-color: rgb(255, 255, 255, 0.1);
+  color: rgb(255, 255, 255);
+}
+
+.span {
+  margin: 0px 70px ;
+  display: inline-block;
+}
+
+.intro {
+  color: rgb(255, 255, 255);
+}
+
+.titleText {
+  font-size: 4em;
+  text-align: left;
+  text-shadow: 2px 1.5px #4e4e4d;
+}
+
+.titleTextRight {
+  position: relative;
+  bottom: 200px;
+}
+
+.titleTextRight >div {
+  font-size: 1.2em;
+}
+
+.mainBackground {
+  /* background: url("../../images/landing/LandingPagePic.avif") no-repeat center center fixed; */
+  /* background: url("../../images/landing/landingEdit.jpg") no-repeat center center fixed; */
+  background: url("../../images/landing/landingPage.png") no-repeat center center fixed;
+  position: relative;
+  bottom: 185px;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.spaceAboveHeader {
+  padding: 15px;
+}
