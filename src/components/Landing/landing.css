@@ -2,3 +2,9 @@
   background-color: rgb(249, 249, 249);
   font-size: 1.2em;
 }
+
+@media (max-width:500px) {
+  .landingPage {
+    width:fit-content;
+  }
+}

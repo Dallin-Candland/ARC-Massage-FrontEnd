@@ -8,14 +8,16 @@ export default function Intakeq(props) {
         target="_blank"
         rel="noreferrer"
         alt="Make an Online Appointment"
+        className='bookAppLink '
       >
-        <img
+        Book Now
+        {/* <img
           className="intakeqImg"
           height="45"
           width="162"
           src="https://intakeq.com/images/booknow.png"
           alt='intakeQ Booking'
-        />
+        /> */}
       </a>
     </>
   );

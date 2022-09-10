@@ -9,3 +9,16 @@
 .intakeq {
   max-width:720px; width: 100%;
 }
+
+.bookAppLink {
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: rgb(221, 212, 215);
+  color: #000000;
+}
+
+.bookAppLink:hover {
+  background-color: rgba(159, 161, 161, 0.3);
+  color: rgb(255, 255, 255);
+}

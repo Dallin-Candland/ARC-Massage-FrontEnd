@@ -91,7 +91,7 @@ header {
   margin: 15px 0;
 }
 
-@media only screen and (max-width: 1290px) {
+@media only screen and (max-width: 1400px) {
   .navContainer {
     display: none;
   }
