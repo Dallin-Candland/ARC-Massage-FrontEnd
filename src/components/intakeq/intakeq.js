@@ -6,6 +6,7 @@ export default function Intakeq(props) {
       <a
         href="https://intakeq.com/booking/spumpn"
         target="_blank"
+        rel="noreferrer"
         alt="Make an Online Appointment"
       >
         <img
@@ -13,6 +14,7 @@ export default function Intakeq(props) {
           height="45"
           width="162"
           src="https://intakeq.com/images/booknow.png"
+          alt='intakeQ Booking'
         />
       </a>
     </>
