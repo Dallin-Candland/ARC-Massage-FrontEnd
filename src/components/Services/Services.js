@@ -7,7 +7,6 @@ import {
 } from "@mui/material";
 import { db } from "./db/db";
 import "./services.css";
-import { Link } from 'react-router-dom';
 import Intakeq from '../intakeq/intakeq';
 
 export default function Services(props) {
