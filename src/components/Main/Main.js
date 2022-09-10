@@ -14,8 +14,6 @@ export default function Main(props) {
           {/* TAKE OUT br */}
           <br /> Tender Love
           <br /> and Care.
-          {process.env.REACT_APP_TEST}
-          oooo
         </span>
         <span className="span titleTextRight">
           <div className='intro'>Get the rejuvenating feeling your body has been craving.</div>

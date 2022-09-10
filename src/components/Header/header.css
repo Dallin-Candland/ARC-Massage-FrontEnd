@@ -68,9 +68,38 @@ header {
 }
 
 /* ##### Media Nav ##### */
+.navMobileContainer {
+  display: none;
+  border-radius: 50px;
+  padding: 15px 0px;
+  text-shadow: 1px 1px #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(159, 161, 161, 0.3);
+  text-align: center;
+   position: absolute;
+   top: 120px;
+   right: 50px;
+}
 
+.navLinkComponent {
+  text-decoration: none;
+  color: rgb(241, 241, 241);
+  padding: 15px 30px;
+}
 
+.navLinkComponentContainer {
+  margin: 15px 0;
+}
 
+@media only screen and (max-width: 1290px) {
+  .navContainer {
+    display: none;
+  }
+  
+  .navMobileContainer {
+    display: block;
+  }
+}
 /* ##### Book App Link ##### */
 
 

@@ -25,6 +25,31 @@ export default function Nav(props) {
           </Link>
         </span>
       </ul>
+
+      <ul className='navMobileContainer'>
+        <div className='navLinkComponentContainer'>
+          <Link className='navLinkComponent' to="/">
+            Home
+          </Link>
+        </div>
+        <div className='navLinkComponentContainer'>
+          <Link className='navLinkComponent' to="location">
+            Location
+          </Link>
+        </div>
+        <div className='navLinkComponentContainer'>
+          <Link className='navLinkComponent' to="services">
+            Services
+          </Link>
+        </div>
+        <div className='navLinkComponentContainer'>
+          <Link className='navLinkComponent' to="about">
+            Contact
+          </Link>
+        </div>
+      </ul>
+
+
     </>
   );
 }

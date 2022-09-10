@@ -1,4 +1,4 @@
-import Nav from "../Nav/Nav";
+import { Link } from "react-router-dom";
 import "./footer.css";
 
 export default function Footer(props) {
@@ -7,10 +7,28 @@ export default function Footer(props) {
       <footer>
         <div className="footerContainer">
           <nav className="navContainerFooter">
-            <Nav
-              navContainer={"navContainer2"}
-              linkComponent={"linkComponent2"}
-            />
+            <ul className="navContainer2">
+              <span>
+                <Link className="linkComponent2" to="/">
+                  Home
+                </Link>
+              </span>
+              <span>
+                <Link className="linkComponent2" to="location">
+                  Location
+                </Link>
+              </span>
+              <span>
+                <Link className="linkComponent2" to="services">
+                  Services
+                </Link>
+              </span>
+              <span>
+                <Link className="linkComponent2" to="about">
+                  Contact
+                </Link>
+              </span>
+            </ul>
           </nav>
 
           <span className="footerBusName">ARC Massage and Family Wellness</span>
