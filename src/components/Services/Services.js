@@ -8,6 +8,7 @@ import {
 import { db } from "./db/db";
 import "./services.css";
 import { Link } from 'react-router-dom';
+import Intakeq from '../intakeq/intakeq';
 
 export default function Services(props) {
   const sessionInfo = db.map((el) => {
@@ -45,7 +46,7 @@ export default function Services(props) {
       </Grid>
     </div>
       <section className='bookAppContainer'>
-        <Link className='bookAppointment' to="contact">Book an Appoinment</Link>
+        <Intakeq />
       </section>
     </div>
   );
