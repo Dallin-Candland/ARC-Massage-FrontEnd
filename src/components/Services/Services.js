@@ -7,13 +7,12 @@ import {
 } from "@mui/material";
 import { db } from "./db/db";
 import "./services.css";
-import { Link } from 'react-router-dom';
 import Intakeq from '../intakeq/intakeq';
 
 export default function Services(props) {
   const sessionInfo = db.map((el) => {
     return (
-      <Grid item xs={4}>
+      <Grid item className="sessionWidthGrid">
         <img className="cardImage" src={el.image} alt="data" />
         <Card className="card" sx={{ maxWidth: 345 }}>
           <CardContent>
@@ -28,7 +27,8 @@ export default function Services(props) {
             </Typography>
           </CardContent>
           <CardActions>
-            <Link to="location" className='priceButton' variant="outlined" size="small">{el.addOn && '+'}${el.cost}</Link>
+            {/* <Link to="location" className='priceButton' variant="outlined" size="small">{el.addOn && '+'}${el.cost}</Link> */}
+            <div className='priceButton'>{el.addOn && '+'}${el.cost}</div>
           </CardActions>
         </Card>
       </Grid>
@@ -40,8 +40,8 @@ export default function Services(props) {
 
     <div className='serviceContainer'>
       <h2 className='servicesTitle'>Services</h2>
-      <div>Here's what to consider when you book with us.</div>
-      <Grid container spacing={2}>
+      <div className='servicesInfo'>Here's what to consider when you book with us.</div>
+      <Grid container spacing={2} className="gridContainer">
         {sessionInfo}
       </Grid>
     </div>

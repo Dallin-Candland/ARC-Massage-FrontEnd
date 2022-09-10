@@ -8,7 +8,6 @@
   margin: auto;
 }
 
-
 /* ##### Button to book massage ##### */
 .MTSessionButton {
   margin: 10px;
@@ -29,7 +28,7 @@
 }
 
 .span {
-  margin: 0px 70px ;
+  margin: 0px 70px;
   display: inline-block;
 }
 
@@ -48,20 +47,42 @@
   bottom: 200px;
 }
 
-.titleTextRight >div {
+.titleTextRight > div {
   font-size: 1.2em;
 }
 
 .mainBackground {
   /* background: url("../../images/landing/LandingPagePic.avif") no-repeat center center fixed; */
   /* background: url("../../images/landing/landingEdit.jpg") no-repeat center center fixed; */
-  background: url("../../images/landing/landingPage.png") no-repeat center center fixed;
+  background: url("../../images/landing/landingPage.png") no-repeat center
+    center fixed;
   position: relative;
-  bottom: 185px;
+  bottom: 175px;
   object-fit: cover;
   background-size: cover;
 }
 
 .spaceAboveHeader {
   padding: 15px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .titleTextRight {
+    display: block;
+    position: relative;
+    top: 0px;
+  }
+
+  .intro {
+    margin-bottom: 50px;
+  }
+  .MTSessionButton {
+    float: none;
+  }
+}
+
+@media (max-width:500px) { 
+ .mainBackground {
+    width: fit-content;
+  }
 }
