@@ -37,6 +37,8 @@ header {
   
 }
 
+/* ##### Nav ##### */
+
 .navContainer > span:first-child {
   margin-left: 15px;
 }
@@ -65,18 +67,15 @@ header {
   background-color: rgba(159, 161, 161, 0.3);
 }
 
+/* ##### Media Nav ##### */
+
+
+
 /* ##### Book App Link ##### */
 
-.bookAppLink {
-  text-decoration: none;
-  margin: 20px;
-  padding: 15px 30px;
-  border-radius: 10px;
-  background-color: RGB(221, 212, 215);
-  color: #000000;
-}
 
-.bookAppLink:hover {
-  background-color: rgba(159, 161, 161, 0.3);
-  color: rgb(255, 255, 255);
+
+.bookAppLink {
+  margin: 20px;
+  border-radius: 10px;
 }
