@@ -15,14 +15,8 @@ export default function Landing(props) {
 
       <Routes>
         <Route path="/" element={<Main />} />
-      </Routes>
-      <Routes>
         <Route path="location" element={<Location />} />
-      </Routes>
-      <Routes>
         <Route path="services" element={<Services />} />
-      </Routes>
-      <Routes>
         <Route path="about" element={<About />} />
       </Routes>
 

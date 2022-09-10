@@ -1,0 +1,11 @@
+/* INTAKE Q */
+
+.intakeqImg {
+  height: 45px; width: 162px;
+  color: black;
+  border-radius: 5px;
+}
+
+.intakeq {
+  max-width:720px; width: 100%;
+}

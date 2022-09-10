@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 // import logo from "../../images/logo/Arc-logo.jpg";
 import logo from "../../images/logo/Final_ARC_Logo_small_web.png";
+import Intakeq from "../intakeq/intakeq";
 import Nav from "../Nav/Nav";
 import "./header.css";
 
@@ -9,20 +10,10 @@ export default function Header(props) {
     <header>
       <img className="logo" src={logo} alt="logo" />
 
-      {/* <section className="h1">
-        <div className="titleTop">ARC MASSAGE</div>
-        <div className="titleBot">& FAMILY WELLNESS CENTER</div>
-      </section> */}
-
       <nav className="navHeader">
-        <Nav
-          navContainer={"navContainer"}
-          linkComponent={"linkComponent"}
-        />
-        <span>
-          <Link className="bookAppLink" to="about">
-            Book an Appoinment
-          </Link>
+        <Nav navContainer={"navContainer"} linkComponent={"linkComponent"} />
+        <span className="bookAppLink">
+          <Intakeq />
         </span>
       </nav>
     </header>
