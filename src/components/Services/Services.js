@@ -27,7 +27,6 @@ export default function Services(props) {
             </Typography>
           </CardContent>
           <CardActions>
-            {/* <Link to="location" className='priceButton' variant="outlined" size="small">{el.addOn && '+'}${el.cost}</Link> */}
             <div className='priceButton'>{el.addOn && '+'}${el.cost}</div>
           </CardActions>
         </Card>

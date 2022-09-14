@@ -47,3 +47,30 @@
   margin-top: 20px;
 }
 
+/* ########## Media ########## */
+
+@media (max-width: 500px) {
+  .locationContainer {
+    width: 500px;
+    padding: 15px;
+  }
+
+  .googleMaps {
+    width: 500px;
+  }
+
+  .welcomeImage {
+    float: none;
+    margin:5%;
+  }
+
+  .locationButton {
+    margin: 40px 60px 10px 60px;
+  }
+  
+  .locationIntakeQ {
+    display: flex;
+    justify-content: center;
+  }
+
+}

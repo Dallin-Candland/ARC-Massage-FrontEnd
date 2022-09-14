@@ -55,7 +55,7 @@ export default function About(props) {
       </section>
 
       <section className="width1024 poicySection">
-        <div className="policyIntro">Policies and Information.</div>
+        <div className="policyIntro">Policies and Information</div>
         {policySection}
       </section>
       <div className="endOfAbout">

@@ -18,7 +18,7 @@ export default function Main(props) {
           <div className="intro">
             Get the rejuvenating feeling your body has been craving.
           </div>
-            <Link to="services" className="MTSessionButton">
+            <Link to="/services" className="MTSessionButton">
               Massage Therapy Sessions
             </Link>
         </div>

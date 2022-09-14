@@ -14,17 +14,17 @@ export default function Footer(props) {
                 </Link>
               </span>
               <span>
-                <Link className="linkComponent2" to="location">
+                <Link className="linkComponent2" to="/location">
                   Location
                 </Link>
               </span>
               <span>
-                <Link className="linkComponent2" to="services">
+                <Link className="linkComponent2" to="/services">
                   Services
                 </Link>
               </span>
               <span>
-                <Link className="linkComponent2" to="about">
+                <Link className="linkComponent2" to="/about">
                   Contact
                 </Link>
               </span>
