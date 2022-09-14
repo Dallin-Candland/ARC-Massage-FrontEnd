@@ -10,9 +10,9 @@ export default function Header(props) {
 
       <nav className="navHeader">
         <Nav navContainer={"navContainer"} linkComponent={"linkComponent"} />
-        <span>
+        {/* <span>
           <Intakeq />
-        </span>
+        </span> */}
       </nav>
     </header>
   );

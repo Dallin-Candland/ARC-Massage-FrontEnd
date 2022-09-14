@@ -52,12 +52,8 @@
 }
 
 .mainBackground {
-  /* background: url("../../images/landing/LandingPagePic.avif") no-repeat center center fixed; */
-  /* background: url("../../images/landing/landingEdit.jpg") no-repeat center center fixed; */
-  background: url("../../images/landing/landingPage.png") no-repeat center
-    center fixed;
+  background: url("../../images/landing/landingPage.png") no-repeat center center fixed;
   position: relative;
-  bottom: 175px;
   object-fit: cover;
   background-size: cover;
 }
@@ -79,10 +75,19 @@
   .MTSessionButton {
     float: none;
   }
+  .mainBackground {
+    height: 130vh;
+
+  }
 }
 
-@media (max-width:500px) { 
- .mainBackground {
+@media (max-width: 500px) {
+  .mainBackground {
     width: fit-content;
+    height: 140vh;
+  }
+  .MTSessionButton {
+    margin-bottom: 300px;
+    border: red solid 5px;
   }
 }
