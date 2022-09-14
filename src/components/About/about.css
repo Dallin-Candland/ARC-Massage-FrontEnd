@@ -1,10 +1,11 @@
 .width1024 {
   width: 1024px;
-  margin: auto;
+  margin: auto 10px;
 }
 
 .aboutContainer {
   padding-bottom: 40px;
+  border: red solid 5px;
 }
 
 /* ##### Intro ##### */
@@ -111,12 +112,18 @@ div + div + .infoParagraph {
 .policyIntro {
   color: rgb(108, 116, 158);
   font-weight: 400;
+  font-size: 2em;
+}
+
+.endOfAbout {
+  padding-bottom: 80px;
+
 }
 
 @media (max-width: 1400px) {
   .aboutContainer {
     width: fit-content;
-    height: 140vh;
+    /* height: 140vh; */
     font-size: 1.35em;
   }
 }
@@ -130,7 +137,7 @@ div + div + .infoParagraph {
   }
   .aboutContainer {
     width: fit-content;
-    height: 140vh;
+    /* height: 140vh; */
     font-size: 1.5em;
   }
 

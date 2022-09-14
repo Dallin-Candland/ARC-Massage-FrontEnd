@@ -168,6 +168,12 @@ header {
   }
 }
 
+@media (max-width: 500px) {
+  .logo {
+    width: 400px;
+  }
+}
+
 /* ##### Book App Link ##### */
 .bookAppLink {
   margin: 20px;
