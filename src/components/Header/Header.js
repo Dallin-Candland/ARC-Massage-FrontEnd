@@ -1,5 +1,4 @@
 import logo from "../../images/logo/Final_ARC_Logo_small_web.png";
-import Intakeq from "../intakeq/intakeq";
 import Nav from "../Nav/Nav";
 import "./header.css";
 

@@ -1,4 +1,3 @@
-import { style } from '@mui/system';
 import { useState } from 'react';
 import { Link } from "react-router-dom";
 import Intakeq from '../intakeq/intakeq';
