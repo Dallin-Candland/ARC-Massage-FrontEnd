@@ -5,7 +5,6 @@
 
 .aboutContainer {
   padding-bottom: 40px;
-  border: red solid 5px;
 }
 
 /* ##### Intro ##### */
@@ -120,6 +119,8 @@ div + div + .infoParagraph {
 
 }
 
+/* ########## Media ########## */
+
 @media (max-width: 1400px) {
   .aboutContainer {
     width: fit-content;
@@ -139,6 +140,11 @@ div + div + .infoParagraph {
     width: fit-content;
     /* height: 140vh; */
     font-size: 1.5em;
+    padding: 15px;
+  }
+
+  .hours {
+    margin: 0 -15px;
   }
 
   .introSection > section {
@@ -147,18 +153,20 @@ div + div + .infoParagraph {
     margin: 20px auto;
   }
   
-  /* .infoParagraph {
-
-  } */
-
-  /* .gridItem {
-    width: 300px;
-  } */
+  div + .infoParagraph {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .infoParagraph:first-child {
+    display: flex;
+    justify-content: center;
+  }
+  
   
   .hourDay.hourTime {
     display: flex;
     align-content: space-around;
-    border: red solid 5px;
   }
   
   .hourTime {
