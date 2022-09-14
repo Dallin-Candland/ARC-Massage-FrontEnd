@@ -42,6 +42,7 @@ export default function Footer(props) {
               200 S Tobin St A <br />
               Renton, WA, 98057, US
             </div>
+            <div>(206) 475-3574</div>
             <span>
               <i className="bi bi-envelope"></i>{" "}
             </span>
