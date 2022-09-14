@@ -1,5 +1,4 @@
 import logo from "../../images/logo/Final_ARC_Logo_small_web.png";
-import Intakeq from "../intakeq/intakeq";
 import Nav from "../Nav/Nav";
 import "./header.css";
 
@@ -10,9 +9,9 @@ export default function Header(props) {
 
       <nav className="navHeader">
         <Nav navContainer={"navContainer"} linkComponent={"linkComponent"} />
-        <span>
+        {/* <span>
           <Intakeq />
-        </span>
+        </span> */}
       </nav>
     </header>
   );
