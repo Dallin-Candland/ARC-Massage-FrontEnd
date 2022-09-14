@@ -78,7 +78,7 @@ header {
   position: absolute;
   top: 0px;
   left: 0px;
-  height: 130vh;
+  height: 140vh;
   width: 100%;
   z-index: 3;
 }
@@ -89,7 +89,7 @@ header {
   
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 .navLinkComponentContainer:first-child {
