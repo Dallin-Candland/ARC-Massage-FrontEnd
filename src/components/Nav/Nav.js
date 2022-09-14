@@ -47,17 +47,17 @@ export default function Nav(props) {
           </Link>
         </div>
         <div className="navLinkComponentContainer">
-          <Link className="navLinkComponent" to="location">
+          <Link className="navLinkComponent" to="/location">
             Location
           </Link>
         </div>
         <div className="navLinkComponentContainer">
-          <Link className="navLinkComponent" to="services">
+          <Link className="navLinkComponent" to="/services">
             Services
           </Link>
         </div>
         <div className="navLinkComponentContainer">
-          <Link className="navLinkComponent" to="about">
+          <Link className="navLinkComponent" to="/about">
             Contact
           </Link>
         </div>
