@@ -62,6 +62,7 @@ div + div + .infoParagraph {
 
 .gridItem {
   margin: 10px 10px 10px 0;
+  width: 500px;
 }
 
 .hourDay {
@@ -110,4 +111,50 @@ div + div + .infoParagraph {
 .policyIntro {
   color: rgb(108, 116, 158);
   font-weight: 400;
+}
+
+@media (max-width: 1400px) {
+  .aboutContainer {
+    width: fit-content;
+    height: 140vh;
+    font-size: 1.35em;
+  }
+}
+
+
+@media (max-width: 500px) {
+
+  .width1024 {
+    width: 500px;
+    margin: auto;
+  }
+  .aboutContainer {
+    width: fit-content;
+    height: 140vh;
+    font-size: 1.5em;
+  }
+
+  .introSection > section {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  /* .infoParagraph {
+
+  } */
+
+  /* .gridItem {
+    width: 300px;
+  } */
+  
+  .hourDay.hourTime {
+    display: flex;
+    align-content: space-around;
+    border: red solid 5px;
+  }
+  
+  .hourTime {
+    margin-bottom: 20px;
+  }
 }

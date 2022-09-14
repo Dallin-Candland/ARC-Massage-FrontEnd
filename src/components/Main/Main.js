@@ -5,7 +5,6 @@ import "./main.css";
 export default function Main(props) {
   return (
     <div className="mainBackground">
-      <div className="spaceAboveHeader"> </div>
       <Header />
       <section className="main">
         <div className="opening"></div>

@@ -34,7 +34,6 @@ header {
   float: right;
   padding-right: 20px;
   padding-top: 35px;
-  
 }
 
 /* ##### Nav ##### */
@@ -80,7 +79,7 @@ header {
   position: fixed;
   top: 0px;
   left: 0px;
-  height: 140vh;
+  height: 150vh;
   width: 100%;
   z-index: 3;
 }

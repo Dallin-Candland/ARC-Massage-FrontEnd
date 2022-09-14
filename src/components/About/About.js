@@ -9,9 +9,9 @@ export default function About(props) {
 
   const hoursSection = hours.map((el) => {
     return (
-      <Grid item xs={5} className="gridItem">
+      <Grid item className="gridItem">
         <div className="hourDay">{el.day}</div>
-        <div>{el.hours}</div>
+        <div className="hourTime">{el.hours}</div>
       </Grid>
     );
   });
@@ -33,9 +33,9 @@ export default function About(props) {
     <div className='aboutContainer'>
       <section className="width1024 introSection">
         {introSection}
-        <div className="introButton">Email</div>
-        <div className="introButton">Call / Text</div>
-        <div className="introButton">Policies and Info</div>
+        <section className="introButton">Email</section>
+        <section className="introButton">Call / Text</section>
+        <section className="introButton">Policies and Info</section>
       </section>
 
       <section className="hours">
