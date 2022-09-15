@@ -16,9 +16,9 @@ export default function Services(props) {
   const basicMassage = (service) => {
     let result = db.filter((filter) => filter.type === service);
 
-    let finalResult = result.map((el) => {
+    let finalResult = result.map((el, idx) => {
       return (
-        <Grid item className="sessionWidthGrid">
+        <Grid item key={idx}className="sessionWidthGrid">
           <img className="cardImage" src={el.image} alt="data" />
           <Card className="card" sx={{ maxWidth: 345 }}>
             <CardContent>
@@ -43,8 +43,8 @@ export default function Services(props) {
   };
 
   return (
-    <div>
-      <div className="serviceContainer">
+    <div className='serviceContainer'>
+      <div >
         <h2 className="servicesTitle">Services</h2>
         <div className="servicesInfo">
           Here's what to consider when you book with us.

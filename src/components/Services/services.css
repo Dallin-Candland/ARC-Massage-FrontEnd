@@ -88,18 +88,20 @@
   }
   .card {
     position: relative;
-    left: 170px
+    /* left: 170px */
+    width: auto;
+    margin: auto;
   }
-  .tab {
-    width: 120px;
+  .serviceContainer {
+    width: 100%;
   }
 }
 
 @media (max-width: 500px) {
   .serviceContainer {
-    width: 100%;
+    /* width: 300px; */
   }
-  .tab {
-    /* width: 80px; */
+  .gridContainer {
+    /* width: 400px; */
   }
 }

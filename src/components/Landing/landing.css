@@ -1,10 +1,12 @@
 .landingPage {
   background-color: rgb(249, 249, 249);
+  background-color: grey;
   font-size: 1.2em;
+  width: 100%;
 }
 
 @media (max-width:500px) {
   .landingPage {
-    width:fit-content;
+    width: 110%;
   }
 }
