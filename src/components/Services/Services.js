@@ -50,9 +50,10 @@ export default function Services(props) {
           Here's what to consider when you book with us.
         </div>
         <Tabs
-          defaultActiveKey="profile"
+          defaultActiveKey="basic"
           id="uncontrolled-tab-example"
           className="mb-3"
+          fill
         >
           <Tab eventKey="basic" title="Massage" tabClassName="tab">
             <Grid container spacing={2} className="gridContainer">

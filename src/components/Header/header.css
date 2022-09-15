@@ -90,11 +90,11 @@ header {
   
   display: flex;
   justify-content: center;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 .navLinkComponentContainer:first-child {
-  margin-top: 150px;
+  margin-top: 90px;
 }
 
 .navLinkComponent {

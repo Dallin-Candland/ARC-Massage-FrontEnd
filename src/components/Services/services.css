@@ -97,7 +97,7 @@
 
 @media (max-width: 500px) {
   .serviceContainer {
-    width: fit-content;
+    width: 90vw;
     margin: auto;
   }
   .tab {
