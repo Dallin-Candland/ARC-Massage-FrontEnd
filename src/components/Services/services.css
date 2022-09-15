@@ -28,7 +28,7 @@
 }
 
 .serviceContainer {
-  width: 1024px;
+  width: 1524px;
   margin: auto;
 }
 
@@ -55,9 +55,20 @@
 }
 
 .gridContainer {
-  margin: auto;
-  width: auto;
+  /* margin: auto; */
+  /* width: auto; */
   justify-content: center;
+  width: 1000px;
+}
+
+.tab {
+  color: rgb(108, 116, 159);
+  width: 200px;
+}
+
+.tab:hover {
+  background-color: rgb(40, 54, 107);
+  color: white;
 }
 
 @media (max-width:1200px) {
@@ -78,5 +89,18 @@
   .card {
     position: relative;
     left: 170px
+  }
+  .tab {
+    width: 120px;
+  }
+}
+
+@media (max-width: 500px) {
+  .serviceContainer {
+    width: fit-content;
+    margin: auto;
+  }
+  .tab {
+    /* width: 80px; */
   }
 }

@@ -39,7 +39,7 @@ export default function Footer(props) {
           <section className="busInfo">
             <div>Address</div>
             <div>
-              200 S Tobin St A <br />
+              200 South Tobin St, Suite A <br />
               Renton, WA, 98057, US
             </div>
             <div>(206) 475-3574</div>
