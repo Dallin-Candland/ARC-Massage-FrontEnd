@@ -8,6 +8,6 @@
 
 @media (max-width:500px) {
   .app {
-    width: 130vw;
+    /* width: 130vw; */
   }
 }
