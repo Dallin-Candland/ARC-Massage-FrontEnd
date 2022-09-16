@@ -24,107 +24,124 @@ export const db = [
     title: '30 Minute Therapeutic Massage',
     image: massage1,
     bio: 'Manipulation of the body\'s soft tissue to stimulate circulation and promote relaxation. The pressure will vary depending on the needs of the focus area. Please note: if you want to receive a full body massage as well as have focus areas targeted, you should book 90 or 120 minutes.',
-    cost: 50
+    cost: 50,
+    type: 'basic'
   },
   {
     title: '60 Minute Therapeutic Massage',
     image: massage2,
     bio: 'Manipulation of the body\'s soft tissue to stimulate circulation and promote relaxation. The pressure will vary depending on the needs of the focus area. Please note: if you want to receive a full body massage as well as have focus areas targeted, you should book 90 or 120 minutes.',
-    cost: 100
+    cost: 100,
+    type: 'basic'
   },
   {
     title: '90 Minute Therapeutic Massage',
     image: massage3,
     bio: 'Manipulation of the body\'s soft tissue to stimulate circulation and promote relaxation. The pressure will vary depending on the needs of the focus area. Please note: if you want to receive a full body massage as well as have focus areas targeted, you should book 90 or 120 minutes.',
-    cost: 150
+    cost: 150,
+    type: 'basic'
   },
   {
     title: '120 Minute Therapeutic Massage',
     image: massage4,
     bio: 'Manipulation of the body\'s soft tissue to stimulate circulation and promote relaxation. The pressure will vary depending on the needs of the focus area. Please note: if you want to receive a full body massage as well as have focus areas targeted, you should book 90 or 120 minutes.',
-    cost: 200
+    cost: 200,
+    type: 'basic'
   },
   {
     title: '30 Minute Manual Lymphatic Drainage Massage',
     image: massage5,
     bio: 'Alleviate buildup of fluid by light stimulation of the lymph nodes.',
-    cost: 75
+    cost: 75,
+    type: 'lymphatic'
   },
   {
     title: '60 Minute Manual Lymphatic Drainage Massage',
     image: massage6,
     bio: 'Alleviate buildup of fluid by light stimulation of the lymph nodes.',
-    cost: 150
+    cost: 150,
+    type: 'lymphatic'
   },
   {
     title: '90 Minute Manual Lymphatic Drainage Massage',
     image: massage7,
     bio: 'Alleviate buildup of fluid by light stimulation of the lymph nodes.',
-    cost: 225
+    cost: 225,
+    type: 'lymphatic'
   },
   {
     title: '120 Minute Manual Lymphatic Drainage Massage',
     image: massage8,
     bio: 'Alleviate buildup of fluid by light stimulation of the lymph nodes.',
-    cost: 300
+    cost: 300,
+    type: 'lymphatic'
   },
   {
     title: '30 Minute Cupping Massage',
     image: cupping1,
     bio: 'Cups are applied to focus areas using suction. Treats muscle soreness and reduces tension.',
-    cost: 65
+    cost: 65,
+    type: 'cupping'
   },
   {
     title: '60 Minute Cupping Massage',
     image: cupping2,
     bio: 'Cups are applied to focus areas using suction. Treats muscle soreness and reduces tension.',
-    cost: 130
+    cost: 130,
+    type: 'cupping'
   },
   {
     title: '90 Minute Cupping Massage',
     image: cupping3,
     bio: 'Cups are applied to focus areas using suction. Treats muscle soreness and reduces tension.',
-    cost: 185
+    cost: 185,
+    type: 'cupping'
   },
   {
     title: '60 Minute Prenatal Massage',
     image: prenatal1,
     bio: 'Performed by experienced therapists, Prenatal Massages are tailored to your comfort to best suit your needs.',
-    cost: 100
+    cost: 100,
+    type: 'prenatal'
   },
   {
     title: '90 Minute Prenatal Massage',
     image: prenatal2,
     bio: 'Performed by experienced therapists, Prenatal Massages are tailored to your comfort to best suit your needs.',
-    cost: 150
+    cost: 150,
+    type: 'prenatal'
   },
   {
     title: 'Hot Stones',
     image: hotStones,
     addOn: '[Add On]',
     bio: 'Stones are applied to the back, using heat to relax the muscles.',
-    cost: 10
+    cost: 10,
+    type: 'enhancement'
   },
   {
     title: 'Cold Stones',
     image: coldStones,
     addOn: '[Add On]',
     bio: 'Reduces inflammation to affected areas, and improves recovery.',
-    cost: 10
+    cost: 10,
+    type: 'enhancement'
   },
   {
     title: 'Cupping Spot Treatment',
     image: cupping4,
     addOn: '[Add On]',
     bio: 'Cups are applied to focus areas using suction. Treats muscle soreness and reduces tension.',
-    cost: 25
+    cost: 25,
+    type: 'enhancement'
   },
   {
     title: 'Aromatherapy',
     image: aromatherapy,
     addOn: '[Add On]',
     bio: 'Add your choice of essential oils to your massage, and get more of an experience.',
-    cost: 15
+    cost: 15,
+    type: 'enhancement'
   },
  
 

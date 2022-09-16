@@ -1,6 +1,10 @@
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import { Link } from "react-router-dom";
+import Intakeq from '../intakeq/intakeq';
 
 export default function Nav(props) {
+  const [open, setOpen] = useState(false)
+  
   return (
     <>
       <ul className={props.navContainer}>
@@ -10,46 +14,57 @@ export default function Nav(props) {
           </Link>
         </span>
         <span>
-          <Link className={props.linkComponent} to="location">
+          <Link className={props.linkComponent} to="/location">
             Location
           </Link>
         </span>
         <span>
-          <Link className={props.linkComponent} to="services">
+          <Link className={props.linkComponent} to="/services">
             Services
           </Link>
         </span>
         <span>
-          <Link className={props.linkComponent} to="about">
+          <Link className={props.linkComponent} to="/about">
             Contact
           </Link>
         </span>
       </ul>
+        <span className='bookNow'>
+          <Intakeq />
+        </span>
 
-      <ul className='navMobileContainer'>
-        <div className='navLinkComponentContainer'>
-          <Link className='navLinkComponent' to="/">
+      {/* <div className="hamburger" onClick={toggleMobileMenu}> */}
+      <div className={open ? 'hamburger openHamburger' : 'hamburger closedHamburger'} onClick={() =>setOpen(open ? false : true)}>
+        <div className="bar1"></div>
+        <div className="bar2"></div>
+        <div className="bar3"></div>
+      </div>
+
+      <ul className={open ? 'navMobileContainer' : 'closed'}>
+        <div className="navLinkComponentContainer">
+          <Link className="navLinkComponent" to="/">
             Home
           </Link>
         </div>
-        <div className='navLinkComponentContainer'>
-          <Link className='navLinkComponent' to="location">
+        <div className="navLinkComponentContainer">
+          <Link className="navLinkComponent" to="/location">
             Location
           </Link>
         </div>
-        <div className='navLinkComponentContainer'>
-          <Link className='navLinkComponent' to="services">
+        <div className="navLinkComponentContainer">
+          <Link className="navLinkComponent" to="/services">
             Services
           </Link>
         </div>
-        <div className='navLinkComponentContainer'>
-          <Link className='navLinkComponent' to="about">
+        <div className="navLinkComponentContainer">
+          <Link className="navLinkComponent" to="/about">
             Contact
           </Link>
         </div>
+        <span className='navLinkComponentContainer'>
+          <Intakeq  className="navLinkComponent"/>
+        </span>
       </ul>
-
-
     </>
   );
 }

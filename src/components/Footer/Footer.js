@@ -14,17 +14,18 @@ export default function Footer(props) {
                 </Link>
               </span>
               <span>
-                <Link className="linkComponent2" to="location">
+                <Link className="linkComponent2 " to="/location">
                   Location
                 </Link>
               </span>
+              <span className='middleOfLinkComponents'></span>
               <span>
-                <Link className="linkComponent2" to="services">
+                <Link className="linkComponent2" to="/services">
                   Services
                 </Link>
               </span>
               <span>
-                <Link className="linkComponent2" to="about">
+                <Link className="linkComponent2" to="/about">
                   Contact
                 </Link>
               </span>
@@ -39,11 +40,12 @@ export default function Footer(props) {
           <section className="busInfo">
             <div>Address</div>
             <div>
-              200 S Tobin St A <br />
+              200 South Tobin St, Suite A <br />
               Renton, WA, 98057, US
             </div>
+            <div>(206) 475-3574</div>
             <span>
-              <i className="bi bi-envelope"></i>{" "}
+              <i className="bi bi-envelope envelope"></i>{" "}
             </span>
             <a
               className="emailLink"
@@ -52,6 +54,8 @@ export default function Footer(props) {
               nicollecandland.lmt@gmail.com
             </a>
           </section>
+          <div className='copyright'>&#169; 2022 ARC Massage and Wellness Center</div>
+          <div className='copyright'>All Rights Reserved</div>
         </div>
       </footer>
     </>

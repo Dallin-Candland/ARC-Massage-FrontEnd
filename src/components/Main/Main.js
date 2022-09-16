@@ -5,11 +5,10 @@ import "./main.css";
 export default function Main(props) {
   return (
     <div className="mainBackground">
-      <div className="spaceAboveHeader"> </div>
       <Header />
       <section className="main">
         <div className="opening"></div>
-        <div className="span titleText intro">
+        <div className="span titleTextLeft intro">
           Professional
           {/* TAKE OUT br */}
           <br /> Tender Love
@@ -19,7 +18,7 @@ export default function Main(props) {
           <div className="intro">
             Get the rejuvenating feeling your body has been craving.
           </div>
-            <Link to="services" className="MTSessionButton">
+            <Link to="/services" className="MTSessionButton">
               Massage Therapy Sessions
             </Link>
         </div>

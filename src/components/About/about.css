@@ -61,7 +61,8 @@ div + div + .infoParagraph {
 }
 
 .gridItem {
-  margin: 10px 10px 10px 0;
+  margin: 10px auto;
+  width: 500px;
 }
 
 .hourDay {
@@ -110,4 +111,156 @@ div + div + .infoParagraph {
 .policyIntro {
   color: rgb(108, 116, 158);
   font-weight: 400;
+  font-size: 2em;
+}
+
+.endOfAbout {
+  padding-bottom: 80px;
+
+}
+
+/* ########## Media ########## */
+
+@media (max-width: 1400px) {
+  .aboutContainer {
+    width: fit-content;
+    /* height: 140vh; */
+    font-size: 1.35em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .aboutContainer {
+    width: fit-content;
+  }
+
+}
+
+
+@media (max-width: 780px) {
+  .aboutContainer {
+    width: fit-content;
+  }
+  .width1024 {
+    width: 700px;
+  }
+  .gridItem > div {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+  }
+  
+  .gridItem {
+    padding-bottom: 25px;
+  }
+
+  .busHours {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hours {
+    padding: 25px;
+    width: 770px;
+  }
+}
+
+
+@media (max-width: 425px) {
+
+  .width1024 {
+    width: 390px;
+    margin: 10px;
+  }
+  .aboutContainer {
+    width: 405px;
+    /* height: 140vh; */
+    font-size: 1.5em;
+    /* padding: 15px; */
+  }
+  .gridItem {
+    width: 390px;
+  }
+
+  .gridItem > div {
+    width: 90%;
+  }
+
+  .hours {
+    /* margin: 0 -15px; */
+    width: 105.5%;
+  }
+
+  .introSection > section {
+    /* display: inline-block; */
+    width: fit-content;
+    margin: 20px auto;
+    margin-right: 10px;
+  }
+
+  /* .introSection:first-of-type > section {
+    margin-right: 100px;
+    border: red solid 5px;
+  } */
+  
+  div + .infoParagraph {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .infoParagraph:first-child {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .hourDay, .hourTime {
+    margin: 0 10px;
+    width: 90%;
+  }
+  
+  .hourTime {
+    margin-bottom: 20px;
+  }
+
+  .busHours {
+    margin: 10px 0;
+    width: 90%;
+  }
+}
+
+@media (max-width:375px) {
+
+  .aboutContainer {
+    width: 375px;
+  }
+  .hours {
+    width: 390px;
+    /* margin-right: 300px; */
+  }
+  .width1024 {
+    width: 340px;
+    margin: auto;
+  }
+  .gridItem {
+    width: 300px;
+  }
+
+  .gridItem > div {
+    width: 330px;
+    margin: auto;
+  }
+
+  .gridItem > div + div{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+  }
+
+  .hourTime {
+    display: flex;
+    justify-content: center;
+  }
 }
