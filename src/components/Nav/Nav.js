@@ -7,24 +7,24 @@ export default function Nav(props) {
   
   return (
     <>
-      <ul className={props.navContainer}>
+      <ul className="navContainer">
         <span>
-          <Link className={props.linkComponent} to="/">
+          <Link className="linkComponent" to="/">
             Home
           </Link>
         </span>
         <span>
-          <Link className={props.linkComponent} to="/location">
+          <Link className="linkComponent" to="/location">
             Location
           </Link>
         </span>
         <span>
-          <Link className={props.linkComponent} to="/services">
+          <Link className="linkComponent" to="/services">
             Services
           </Link>
         </span>
         <span>
-          <Link className={props.linkComponent} to="/about">
+          <Link className="linkComponent" to="/about">
             Contact
           </Link>
         </span>

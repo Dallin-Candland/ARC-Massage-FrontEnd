@@ -55,6 +55,8 @@ header {
 .linkComponent:hover {
   background-color: rgb(174, 174, 175);
   color: rgb(78, 77, 75);
+  transition: .8s;
+  border-radius: 10px;
 }
 
 .navContainer {

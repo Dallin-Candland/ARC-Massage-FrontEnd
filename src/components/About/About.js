@@ -33,9 +33,9 @@ export default function About(props) {
     <div className='aboutContainer'>
       <section className="width1024 introSection">
         {introSection}
-        <section className="introButton">Email</section>
+        {/* <section className="introButton">Email</section>
         <section className="introButton">Call / Text</section>
-        <section className="introButton">Policies and Info</section>
+        <section className="introButton">Policies and Info</section> */}
       </section>
 
       <section className="hours">
@@ -51,7 +51,7 @@ export default function About(props) {
         <div>Let us know how we can best serve you.</div>
         <div className='appContact'>Phone: Appoinment / Contact</div>
         <div className='line'>{" "}</div>
-        <div className='phoneNumber'>(206) 475-3574</div>
+        <div className='phoneNumber'><a href="tel:2064753574">(206) 475-3574</a></div>
       </section>
 
       <section className="width1024 poicySection">

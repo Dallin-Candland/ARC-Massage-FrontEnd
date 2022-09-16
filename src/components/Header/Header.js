@@ -8,7 +8,7 @@ export default function Header(props) {
       <img className="logo" src={logo} alt="logo" />
 
       <nav className="navHeader">
-        <Nav navContainer={"navContainer"} linkComponent={"linkComponent"} />
+        <Nav />
       </nav>
     </header>
   );

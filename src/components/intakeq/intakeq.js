@@ -11,13 +11,6 @@ export default function Intakeq(props) {
         className='bookAppLink '
       >
         Book Now
-        {/* <img
-          className="intakeqImg"
-          height="45"
-          width="162"
-          src="https://intakeq.com/images/booknow.png"
-          alt='intakeQ Booking'
-        /> */}
       </a>
     </>
   );
