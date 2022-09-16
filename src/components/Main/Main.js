@@ -3,7 +3,6 @@ import Header from "../Header/Header";
 import "./main.css";
 
 export default function Main(props) {
-  console.log('process.env.TEST', process.env.REACT_APP_TEST123);
   return (
     <div className="mainBackground">
       <Header />
@@ -13,7 +12,7 @@ export default function Main(props) {
           Professional
           {/* TAKE OUT br */}
           <br /> Tender Love
-          <br /> and Care. {process.env.REACT_APP_TEST123}
+          <br /> and Care.
         </div>
         <div className="span titleTextRight">
           <div className="intro">

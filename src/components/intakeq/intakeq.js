@@ -4,7 +4,7 @@ export default function Intakeq(props) {
   return (
     <>
       <a
-        href={process.env.REACT_APP_INTAKEQ}
+        href="https://intakeq.com/booking/spumpn"
         target="_blank"
         rel="noreferrer"
         alt="Make an Online Appointment"
