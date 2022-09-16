@@ -18,7 +18,7 @@ export default function Footer(props) {
                   Location
                 </Link>
               </span>
-              <span className='middleOfLinkComponents'></span>
+              <span className="middleOfLinkComponents"></span>
               <span>
                 <Link className="linkComponent2" to="/services">
                   Services
@@ -38,12 +38,23 @@ export default function Footer(props) {
           <hr style={{ height: "2px" }}></hr>
 
           <section className="busInfo">
-            <div>Address</div>
-            <div>
-              200 South Tobin St, Suite A <br />
-              Renton, WA, 98057, US
+            <div>Contact Us:</div>
+            <div className="addressLink">
+              <a
+                href="https://www.google.com/maps/place/Arc+Massage+and+Family+Wellness+Center/@47.4835882,-122.2143937,18z/data=!4m5!3m4!1s0x0:0xf03a3ef3c009d17d!8m2!3d47.4841524!4d-122.2144035"
+                target="_blank"
+                rel="noreferrer"
+                alt="Google Maps Link"
+              >
+                <div>
+                  200 South Tobin St, Suite A <br />
+                  Renton, WA, 98057, US
+                </div>
+              </a>
             </div>
-            <div>(206) 475-3574</div>
+            <div>
+              <a href="tel:2064753574">(206) 475-3574</a>
+            </div>
             <span>
               <i className="bi bi-envelope envelope"></i>{" "}
             </span>
@@ -54,8 +65,10 @@ export default function Footer(props) {
               nicollecandland.lmt@gmail.com
             </a>
           </section>
-          <div className='copyright'>&#169; 2022 ARC Massage and Wellness Center</div>
-          <div className='copyright'>All Rights Reserved</div>
+          <div className="copyright">
+            &#169; 2022 ARC Massage and Wellness Center
+          </div>
+          <div className="copyright">All Rights Reserved</div>
         </div>
       </footer>
     </>

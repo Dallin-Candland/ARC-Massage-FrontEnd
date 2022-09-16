@@ -20,11 +20,13 @@ footer {
   text-decoration: none;
   color: grey;
   padding: 10px 15px 10px 15px;
+  border-radius: 10px;
 }
 
 .linkComponent2:hover {
   background-color: rgb(174, 174, 175);
   color: rgb(243, 219, 154);
+  transition: .8s;
 }
 
 .navContainerFooter {
@@ -47,6 +49,17 @@ footer {
   font-size: 1.2em;
   color: rgb(108, 116, 158);
 }
+
+/* .busInfo {
+  width: 50vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.busInfo > div {
+  display: block;
+} */
 
 .busInfo > div:first-child {
   font-size: larger;
@@ -71,6 +84,11 @@ footer {
 
 .copyright + div {
   margin-top: 0px;
+}
+
+.addressLink {
+  margin-bottom: 10px;
+  width: fit-content;
 }
 
 @media  (max-width: 780px) {
