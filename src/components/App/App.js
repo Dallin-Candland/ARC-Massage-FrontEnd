@@ -5,7 +5,7 @@ import Landing from '../Landing/Landing';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <BrowserRouter>
         <Landing />
       </BrowserRouter>

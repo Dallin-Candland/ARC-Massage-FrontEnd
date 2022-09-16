@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import image from "../../images/stockImages/cc-stock-1.png";
 import "./location.css";
 import googleMaps from "../../images/googleMaps/googleMapsStaticPic.PNG";
-import Intakeq from '../intakeq/intakeq';
+import Intakeq from "../intakeq/intakeq";
 
 export default function Location(props) {
   return (
@@ -23,15 +23,13 @@ export default function Location(props) {
         cancels their appointment.
       </div>
       <div className="lastDiv">Business hours listed in the link below.</div>
-      <Link className="locationButton" to="about">
-        Hours
-      </Link>
-      <Link className="locationButton" to="about">
-        Additonal Information
+      <Link className="locationButton" to="/about">
+        Hours & Additonal Information
       </Link>
 
-      <Intakeq />
-
+      <div className="locationIntakeQ">
+        <Intakeq />
+      </div>
     </div>
   );
 }

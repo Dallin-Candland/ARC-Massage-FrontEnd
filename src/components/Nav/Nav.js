@@ -34,7 +34,7 @@ export default function Nav(props) {
         </span>
 
       {/* <div className="hamburger" onClick={toggleMobileMenu}> */}
-      <div className="hamburger" onClick={() =>setOpen(open ? false : true)}>
+      <div className={open ? 'hamburger openHamburger' : 'hamburger closedHamburger'} onClick={() =>setOpen(open ? false : true)}>
         <div className="bar1"></div>
         <div className="bar2"></div>
         <div className="bar3"></div>
@@ -47,17 +47,17 @@ export default function Nav(props) {
           </Link>
         </div>
         <div className="navLinkComponentContainer">
-          <Link className="navLinkComponent" to="location">
+          <Link className="navLinkComponent" to="/location">
             Location
           </Link>
         </div>
         <div className="navLinkComponentContainer">
-          <Link className="navLinkComponent" to="services">
+          <Link className="navLinkComponent" to="/services">
             Services
           </Link>
         </div>
         <div className="navLinkComponentContainer">
-          <Link className="navLinkComponent" to="about">
+          <Link className="navLinkComponent" to="/about">
             Contact
           </Link>
         </div>
