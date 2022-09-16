@@ -9,9 +9,9 @@ import { db } from "./db/db";
 import "./services.css";
 import Intakeq from "../intakeq/intakeq";
 import { Tab, Tabs } from "react-bootstrap";
+import PackageSale from './sale/PackageSale';
 
 export default function Services(props) {
-
 
   const basicMassage = (service) => {
     let result = db.filter((filter) => filter.type === service);
@@ -49,6 +49,8 @@ export default function Services(props) {
         <div className="servicesInfo">
           Here's what to consider when you book with us.
         </div>
+
+        <PackageSale />
         <Tabs
           defaultActiveKey="basic"
           id="uncontrolled-tab-example"
