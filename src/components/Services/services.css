@@ -28,7 +28,7 @@
 }
 
 .serviceContainer {
-  width: 1524px;
+  /* width: 1524px; */
   margin: auto;
 }
 
@@ -43,11 +43,10 @@
 
 .bookAppContainer {
   margin-top: 30px;
-  /* padding: 80px 0; */
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 20px 0;
   background-color: rgb(255, 255, 255);
-  padding-left: 44%;
+  display: flex;
+  justify-content: center;
 }
 
 .sessionWidthGrid {
@@ -73,7 +72,7 @@
 
 @media (max-width:1200px) {
   .serviceContainer{
-    width: 100%;
+    width: 100vw;
   }
   .sessionWidthGrid {
     width:400px;
@@ -93,13 +92,13 @@
     margin: auto;
   }
   .serviceContainer {
-    width: 100%;
+    width: 100vw;
   }
 }
 
 @media (max-width: 500px) {
   .serviceContainer {
-    /* width: 300px; */
+    width: 100vw;
   }
   .gridContainer {
     /* width: 400px; */

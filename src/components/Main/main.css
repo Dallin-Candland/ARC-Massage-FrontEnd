@@ -1,10 +1,18 @@
+.mainBackground {
+  background: url("../../images/landing/landingPage.png") no-repeat center center fixed;
+  position: relative;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+}
+
 .main {
   height: 100vh;
   text-align: center;
 }
 
 .opening {
-  height: 40vh;
+  height: 20vh;
   margin: auto;
 }
 
@@ -27,8 +35,8 @@
   color: rgb(255, 255, 255);
 }
 
+
 .span {
-  margin: 0px 70px;
   display: inline-block;
 }
 
@@ -36,10 +44,11 @@
   color: rgb(255, 255, 255);
 }
 
-.titleText {
+.titleTextLeft {
   font-size: 4em;
   text-align: left;
   text-shadow: 2px 1.5px #4e4e4d;
+  margin: 0px 70px;
 }
 
 .titleTextRight {
@@ -51,12 +60,6 @@
   font-size: 1.2em;
 }
 
-.mainBackground {
-  background: url("../../images/landing/landingPage.png") no-repeat center center fixed;
-  position: relative;
-  object-fit: cover;
-  background-size: cover;
-}
 
 @media only screen and (max-width: 1400px) {
   .titleTextRight {
@@ -77,12 +80,26 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 425px) {
   .mainBackground {
-    width: fit-content;
+    width: 100%;
     height: 140vh;
   }
   .MTSessionButton {
     margin-bottom: 300px;
+  }
+  .titleTextLeft {
+    margin-bottom: 50px;
+    font-size: 2.8em;
+    margin: 0 10px;
+  }
+}
+
+
+@media (max-width:390px) {
+  .mainBackground {
+    margin-top: -5px;
+    width: 390px;
+    height: 140vh;
   }
 }

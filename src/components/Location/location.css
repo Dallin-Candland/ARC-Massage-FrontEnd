@@ -55,6 +55,24 @@
   }
 }
 
+@media (max-width: 770px) {
+  .locationContainer {
+    width: 90vmin;
+  }
+  .welcomeImage {
+    float: none;
+    display: flex;
+    justify-content: center;
+    margin:5% auto;
+    width: 80%;
+    height: 80%;
+  }
+  .googleMaps {
+    width: 100%;
+    margin: auto;
+  }
+}
+
 @media (max-width: 500px) {
   .locationContainer {
     width: 90vmin;
@@ -62,13 +80,17 @@
   }
 
   .googleMaps {
-    width: 470px;
+    width: 100%;
     margin: auto;
   }
 
   .welcomeImage {
     float: none;
-    margin:5%;
+    display: flex;
+    justify-content: center;
+    margin:5% auto;
+    width: 80%;
+    height: 80%;
   }
 
   .locationButton {

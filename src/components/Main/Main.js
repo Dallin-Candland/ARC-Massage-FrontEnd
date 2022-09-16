@@ -8,7 +8,7 @@ export default function Main(props) {
       <Header />
       <section className="main">
         <div className="opening"></div>
-        <div className="span titleText intro">
+        <div className="span titleTextLeft intro">
           Professional
           {/* TAKE OUT br */}
           <br /> Tender Love

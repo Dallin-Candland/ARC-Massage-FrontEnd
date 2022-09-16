@@ -34,7 +34,7 @@ export default function Nav(props) {
         </span>
 
       {/* <div className="hamburger" onClick={toggleMobileMenu}> */}
-      <div className="hamburger" onClick={() =>setOpen(open ? false : true)}>
+      <div className={open ? 'hamburger openHamburger' : 'hamburger closedHamburger'} onClick={() =>setOpen(open ? false : true)}>
         <div className="bar1"></div>
         <div className="bar2"></div>
         <div className="bar3"></div>

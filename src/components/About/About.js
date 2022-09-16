@@ -59,7 +59,7 @@ export default function About(props) {
         {policySection}
       </section>
       <div className="endOfAbout">
-        Under
+        
       </div>
     </div>
   );
