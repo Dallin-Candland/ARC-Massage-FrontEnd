@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, OverlayTrigger, Popover } from "react-bootstrap";
+import { OverlayTrigger, Popover } from "react-bootstrap";
 import "./packageSale.css";
 
 export default function PackageSale(props) {
