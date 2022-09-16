@@ -76,7 +76,10 @@
   }
   .mainBackground {
     height: 130vh;
-
+  }
+  .titleTextLeft {
+    margin-bottom: 50px;
+    margin: 0 10px;
   }
 }
 
