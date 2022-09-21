@@ -60,13 +60,13 @@ export default function Footer(props) {
             </span>
             <a
               className="emailLink"
-              href="mailto:nicollecandland.lmt@gmail.com?subject=To ARC Massage"
+              href="mailto:support@arcmassageandwellness.com?subject=To ARC Massage and Wellness"
             >
-              nicollecandland.lmt@gmail.com
+              support@arcmassageandwellness.com
             </a>
           </section>
           <div className="copyright">
-            &#169; 2022 ARC Massage and Wellness Center
+            &#169; 2022 ARC Massage and Family Wellness Center, LLC
           </div>
           <div className="copyright">All Rights Reserved</div>
         </div>

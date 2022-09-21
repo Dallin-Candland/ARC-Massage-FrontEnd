@@ -27,3 +27,18 @@
   background-color: rgb(221, 212, 215);
   color: rgb(108, 116, 158);
 }
+
+.packageBanner {
+  text-align: center;
+}
+
+@media (max-width:390px) {
+  .width1024 {
+    width: 100%;
+  }
+}
+@media (max-width:320px) {
+  .width1024 {
+    width: 100%;
+  }
+}

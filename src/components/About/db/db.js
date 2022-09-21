@@ -30,35 +30,38 @@ export const policy = [
 
 export const hours = [
   {
-    day: 'Monday',
-    hours: '9:00am - 8:00pm Appointments only'
+    day: "Monday",
+    hours: "9:00am - 8:00pm Appointments only",
   },
   {
-    day: 'Tuesday',
-    hours: '9:00am - 6:00pm Appointments only'
+    day: "Tuesday",
+    hours: "9:00am - 6:00pm Appointments only",
   },
   {
-    day: 'Wednesday',
-    hours: '9:00am - 4:30pm Appointments only'
+    day: "Wednesday",
+    hours: "9:00am - 4:30pm Appointments only",
   },
   {
-    day: 'Thursday - Friday',
-    hours: '9:00am - 8:00pm Appointments only'
+    day: "Thursday - Friday",
+    hours: "9:00am - 8:00pm Appointments only",
   },
   // {
   //   day: 'Friday',
   //   hours: '9:00am - 8:00pm Appointments only'
   // },
   {
-    day: 'Saturday',
-    hours: '8:00am - 1:30pm Appointments only'
+    day: "Saturday",
+    hours: "8:00am - 1:30pm Appointments only",
   },
   {
-    day: 'Sunday',
-    hours: 'Closed'
+    day: "Sunday",
+    hours: "Closed",
   },
-]
+];
 
 export const intro = [
-  'A better future awaits', 'We are new!', 'We\'re bending the curve for massage therapy by providing care to all people, including those that feel they cannot make the time. We plan to provide childcare for those that deserve a moment to rejuvenate. Our business is new, and there is still much work that needs done to reach our goals to be convenient in all respects.', 'Thank you for your patience as we\'re developing a way for you to book an appointment online.', 'We temporarily will only book appointments by email or phone. Remember to leave us a message if we do not answer our phone. We will do our best to quickly respond to your appointment requests.', 'For all other inquiries, you may use the same email and phone to contact us.'
-]
+  "A better future awaits",
+  "We are new!",
+  "We're bending the curve for massage therapy by providing care to all people, including those that feel they cannot make the time. We plan to provide childcare for those that deserve a moment to rejuvenate. Our business is new, and there is still much work that needs done to reach our goals to be convenient in all respects.",
+  "For all other inquiries, please call or email to contact us.",
+];
