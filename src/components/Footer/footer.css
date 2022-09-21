@@ -113,4 +113,8 @@ footer {
   .envelope {
     display: none;
   }
+
+  .emailLink {
+    font-size: 0.8em;
+  }
 }
