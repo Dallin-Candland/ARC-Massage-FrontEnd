@@ -9,7 +9,7 @@ import { db } from "./db/db";
 import "./services.css";
 import Intakeq from "../intakeq/intakeq";
 import { Tab, Tabs } from "react-bootstrap";
-import PackageSale from './sale/PackageSale';
+// import PackageSale from './sale/PackageSale';
 
 export default function Services(props) {
 
@@ -50,7 +50,7 @@ export default function Services(props) {
           Here's what to consider when you book with us.
         </div>
 
-        <PackageSale />
+        {/* <PackageSale /> */}
         <Tabs
           defaultActiveKey="basic"
           id="uncontrolled-tab-example"
