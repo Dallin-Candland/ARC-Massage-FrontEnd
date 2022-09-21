@@ -12,11 +12,11 @@ export default function PackageSale(props) {
             Our Packages are on sale
           </Alert.Heading>
           <p>
-            Normally our packages are only buy 5, get <strong>one</strong> free, we are running a
+            Normally our packages are only buy 5 massages, get <strong>one</strong> free, we are running a
             sale until the 27th of September for:
           </p>
           <p>
-            Buy 5 and get, wait for it, <strong>two</strong> free!
+            Buy 5 massages and get, wait for it, <strong>two</strong> free!
           </p>
           <hr />
           Please email{" "}
