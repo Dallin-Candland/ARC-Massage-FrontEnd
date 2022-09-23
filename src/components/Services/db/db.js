@@ -127,14 +127,14 @@ export const db = [
     cost: 10,
     type: 'enhancement'
   },
-  {
-    title: 'Cupping Spot Treatment',
-    image: cupping4,
-    addOn: '[Add On]',
-    bio: 'Cups are applied to focus areas using suction. Treats muscle soreness and reduces tension.',
-    cost: 25,
-    type: 'enhancement'
-  },
+  // {
+  //   title: 'Cupping Spot Treatment',
+  //   image: cupping4,
+  //   addOn: '[Add On]',
+  //   bio: 'Cups are applied to focus areas using suction. Treats muscle soreness and reduces tension.',
+  //   cost: 25,
+  //   type: 'enhancement'
+  // },
   {
     title: 'Aromatherapy',
     image: aromatherapy,
