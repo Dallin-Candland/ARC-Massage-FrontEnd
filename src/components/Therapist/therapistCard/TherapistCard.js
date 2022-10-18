@@ -2,7 +2,7 @@ import { Grid } from "@mui/material";
 import "./therapistCard.css";
 
 export default function TherapistCard({ el, idx }) {
-  const { name, bio, image, services, licenses } = el;
+  const { name, bio, services, licenses } = el;
   return (
     <section className="therapistSection" key={idx}>
       <Grid container>
