@@ -62,6 +62,11 @@ export default function Nav(props) {
           </Link>
         </div>
         <div className="navLinkComponentContainer">
+          <Link className="navLinkComponent" to="/therapist">
+            Therapists
+          </Link>
+        </div>
+        <div className="navLinkComponentContainer">
           <Link className="navLinkComponent" to="/about">
             Contact
           </Link>
