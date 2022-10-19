@@ -1,57 +1,44 @@
-.OR {
-  text-align: center;
-  font-size: 5em;
-}
-
 .familyPhoto {
   min-width: 100%;
   margin-bottom: 30px;
 }
 
-.therapistServices {
-  border: 4px;
+@media(max-width: 1450px) {
+  .familyPhoto {
+    width: 1400px;
+  }
+  .therapistBio {
+    width: ;
+  }
 }
 
-.therapistName {
-  text-align: center;
+@media(max-width: 1030px) {
+  .familyPhoto {
+    max-width: 523px;
+  }
 }
 
-.therapistName:first-child {
-  font-size: 1em;
+@media(max-width: 426px) {
+ .familyPhoto {
+  max-width: 400px;
+ }
 }
 
-.therapistServiesTitles {
-  text-align: center;
-  margin: auto;
-  margin-bottom: 10px;
+@media(max-width: 391px) {
+  .familyPhoto {
+    max-width: 320px;
+  }
 }
 
-.therapistLicenses {
-  text-align: center;
-  padding-bottom: 30px;
+@media(max-width: 376px) {
+  .familyPhoto {
+    max-width: 350px;
+  }
 }
 
-.therapistContainer {
-  margin-bottom: 100px;
+@media(max-width: 326px) {
+  .familyPhoto {
+    max-width: 255px;
+  }
 }
 
-.TherapistCardContent {
-  margin: 10px;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px inset,inset rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-}
-
-.therapistCards {
-  /* border: red solid 5px; */
-  background-color: rgb(221, 212, 215);
-}
-
-.therapistBioSection {
-}
-
-.therapistServicesDiv {
-  text-align: center;
-}
-
-.MuiCardHeader-subheader {
-
-}

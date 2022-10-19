@@ -6,14 +6,14 @@ export default function TherapistCard({ el, idx }) {
   return (
     <section className="therapistSection" key={idx}>
       <Grid container>
-        <Grid item xs={3}>
+        <Grid item xs={12} sm={12} md={6} lg={3}>
           <img
             src="https://via.placeholder.com/400x400?text=Profile+Photo"
             alt="portrait"
-            // className="therapistImg"
+            className="therapistImg"
           />
         </Grid>
-        <Grid item xs={7}>
+        <Grid item xs={12} sm={12} md={6} lg={7}>
           <section className="therapistInfo">
             <div>{name}</div>
             <div className="therapistCardLicense">
@@ -21,11 +21,10 @@ export default function TherapistCard({ el, idx }) {
                 <span key={idx}>{el} </span>
               ))}
             </div>
-            <div className="therapistBio">{bio}</div>
           </section>
         </Grid>
-        <Grid item xs={2}>
-          <section className='therapistServiceSection'>
+        <Grid item xs={12} sm={12} md={0} lg={2}>
+          <section className="therapistServiceSection">
             <section>Services:</section>
             <section>
               {services.map((el, idx) => (
@@ -34,6 +33,13 @@ export default function TherapistCard({ el, idx }) {
             </section>
           </section>
         </Grid>
+
+        {/* Next line in Grid */}
+        <Grid item xs={0} sm={12} md={0} lg={3}></Grid>
+        <Grid item xs={12} sm={12} md={10} lg={7}>
+          <div className='TherapistBio'>{bio}</div>
+        </Grid>
+        <Grid item xs={0} sm={12} md={2} lg={2}></Grid>
       </Grid>
     </section>
   );
