@@ -4,6 +4,7 @@ import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Location from "../Location/Location";
 import Main from "../Main/Main";
+import Medical from '../Medical/Medical';
 import PackageSale from "../Services/sale/PackageSale";
 import Services from "../Services/Services";
 import "./landing.css";
@@ -41,6 +42,20 @@ export default function Landing(props) {
           }
         />
       </Routes>
+
+      <Routes>
+        <Route
+          path="/medical"
+          element={
+            <>
+              <Header />
+              <PackageSale />
+              <Medical />
+            </>
+          }
+        />
+      </Routes>
+
       <Routes>
         <Route
           path="/about"
