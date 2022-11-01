@@ -1,4 +1,3 @@
-import { Room, Security } from '@mui/icons-material';
 import { useState } from 'react';
 import { Link } from "react-router-dom";
 import Intakeq from '../intakeq/intakeq';
@@ -79,47 +78,3 @@ export default function Nav(props) {
     </>
   );
 }
-
-
-/*
-firest day on tuesday
-pass Security
-mail Room
-badge Room
-laptop other stuff
-admin team i9 paperwork
-specific identification for i9 paperwork
-wednesday at federal way
-  instructions
-Chris cherrat as mentor
-  new hire mentor
-
-customs and accounting
-  dev and suppport
-
-  cat support
-  3 EDI support teams total
-distrubution -other team
-accounting  -other team
-
-close to order management group
-desk
-
-coat on is ok
-externally facing must wear a tie
-
-support team is rarely on external calls
-
-first walk in the door
-lobby is open to public
-mike wren is execting me
-two difficult building
-  will recieve address to the building to meet Mike Wren
-Most of the team works in federal way
-
-notes:
-  bring paperwork for notes
-  suppply closet
-    has paperwork
-  
-*/
