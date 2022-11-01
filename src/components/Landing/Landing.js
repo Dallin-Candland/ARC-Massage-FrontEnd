@@ -5,7 +5,6 @@ import Header from "../Header/Header";
 import Location from "../Location/Location";
 import Main from "../Main/Main";
 import Medical from '../Medical/Medical';
-import PackageSale from "../Services/sale/PackageSale";
 import Services from "../Services/Services";
 import "./landing.css";
 
@@ -23,7 +22,6 @@ export default function Landing(props) {
           element={
             <>
               <Header />
-              <PackageSale />
               <Location />
             </>
           }
@@ -36,7 +34,6 @@ export default function Landing(props) {
           element={
             <>
               <Header />
-              <PackageSale />
               <Services />
             </>
           }
@@ -49,7 +46,6 @@ export default function Landing(props) {
           element={
             <>
               <Header />
-              <PackageSale />
               <Medical />
             </>
           }
@@ -62,7 +58,6 @@ export default function Landing(props) {
           element={
             <>
               <Header />
-              <PackageSale />
               <About />
             </>
           }

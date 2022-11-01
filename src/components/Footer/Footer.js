@@ -33,7 +33,7 @@ export default function Footer(props) {
                 </Grid>
                 <Grid item xs={6} sm={4} md>
                   <span>
-                    <Link className="linkComponent2" to="/insurance">
+                    <Link className="linkComponent2" to="/medical">
                       Insurance
                     </Link>
                   </span>
