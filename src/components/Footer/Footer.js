@@ -1,3 +1,4 @@
+import { Grid } from "@mui/material";
 import { Link } from "react-router-dom";
 import "./footer.css";
 
@@ -8,27 +9,43 @@ export default function Footer(props) {
         <div className="footerContainer">
           <nav className="navContainerFooter">
             <ul className="navContainer2">
-              <span>
-                <Link className="linkComponent2" to="/">
-                  Home
-                </Link>
-              </span>
-              <span>
-                <Link className="linkComponent2 " to="/location">
-                  Location
-                </Link>
-              </span>
-              <span className="middleOfLinkComponents"></span>
-              <span>
-                <Link className="linkComponent2" to="/services">
-                  Services
-                </Link>
-              </span>
-              <span>
-                <Link className="linkComponent2" to="/about">
-                  Contact
-                </Link>
-              </span>
+              <Grid container spacing={2}>
+                <Grid item xs={6} sm={4} md>
+                  <span>
+                    <Link className="linkComponent2" to="/">
+                      Home
+                    </Link>
+                  </span>
+                </Grid>
+                <Grid item xs={6} sm={4} md>
+                  <span>
+                    <Link className="linkComponent2 " to="/location">
+                      Location
+                    </Link>
+                  </span>
+                </Grid>
+                <Grid item xs={6} sm={4} md>
+                  <span>
+                    <Link className="linkComponent2" to="/services">
+                      Services
+                    </Link>
+                  </span>
+                </Grid>
+                <Grid item xs={6} sm={4} md>
+                  <span>
+                    <Link className="linkComponent2" to="/medical">
+                      Insurance
+                    </Link>
+                  </span>
+                </Grid>
+                <Grid item xs={6} sm={4} md>
+                  <span>
+                    <Link className="linkComponent2" to="/about">
+                      Contact
+                    </Link>
+                  </span>
+                </Grid>
+              </Grid>
             </ul>
           </nav>
 

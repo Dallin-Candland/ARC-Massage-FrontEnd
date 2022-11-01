@@ -32,6 +32,12 @@
   text-align: center;
 }
 
+@media (max-width:426px) {
+  .width1024 {
+    width: 100%;
+  }
+}
+
 @media (max-width:390px) {
   .width1024 {
     width: 100%;
