@@ -4,7 +4,7 @@ import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Location from "../Location/Location";
 import Main from "../Main/Main";
-import PackageSale from "../Services/sale/PackageSale";
+import Medical from '../Medical/Medical';
 import Services from "../Services/Services";
 import "./landing.css";
 
@@ -22,7 +22,6 @@ export default function Landing(props) {
           element={
             <>
               <Header />
-              <PackageSale />
               <Location />
             </>
           }
@@ -35,19 +34,30 @@ export default function Landing(props) {
           element={
             <>
               <Header />
-              <PackageSale />
               <Services />
             </>
           }
         />
       </Routes>
+
+      <Routes>
+        <Route
+          path="/medical"
+          element={
+            <>
+              <Header />
+              <Medical />
+            </>
+          }
+        />
+      </Routes>
+
       <Routes>
         <Route
           path="/about"
           element={
             <>
               <Header />
-              <PackageSale />
               <About />
             </>
           }
