@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import Header from "../Header/Header";
+import GiftCards from '../Services/giftCard/giftCard';
 import "./main.css";
 
 export default function Main(props) {
   return (
     <div className="mainBackground">
       <Header />
+      <GiftCards />
       <section className="main">
         <div className="opening"></div>
         <div className="span titleTextLeft intro">
