@@ -49,7 +49,7 @@ export default function About(props) {
 
       <section className="width1024 contactSection">
         <div>Let us know how we can best serve you.</div>
-        <div className='appContact'>Phone: Appoinment / Contact</div>
+        <div className='appContact'>Phone: Appointment / Contact</div>
         <div className='line'>{" "}</div>
         <div className='phoneNumber'><a href="tel:2064753574">(206) 475-3574</a></div>
       </section>

@@ -7,6 +7,7 @@ import Main from "../Main/Main";
 import Medical from '../Medical/Medical';
 import Services from "../Services/Services";
 import "./landing.css";
+import GiftCards from '../Services/giftCard/giftCard';
 
 export default function Landing(props) {
   return (
@@ -22,6 +23,7 @@ export default function Landing(props) {
           element={
             <>
               <Header />
+              <GiftCards />
               <Location />
             </>
           }
@@ -34,6 +36,7 @@ export default function Landing(props) {
           element={
             <>
               <Header />
+              <GiftCards />
               <Services />
             </>
           }
@@ -46,6 +49,7 @@ export default function Landing(props) {
           element={
             <>
               <Header />
+              <GiftCards />
               <Medical />
             </>
           }
@@ -58,6 +62,7 @@ export default function Landing(props) {
           element={
             <>
               <Header />
+              <GiftCards />
               <About />
             </>
           }
