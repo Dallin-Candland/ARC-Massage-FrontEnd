@@ -21,6 +21,37 @@ This website is to help my friend build her business. She is opening up her own 
 - 1.0 MVP
 - 2.0 Mobile Friendly
 
+## Road Map
+
+- [x] MVP
+- Mobile friendly
+  - [x] MVP
+  - [x] Insurance
+- [x] Insurance
+- Banner
+  - [] Dynamic Banners - able to close them
+  - [] Create time based banners
+  - [x] Packages
+  - [x] Gift Cards
+- Therapist Page
+  - [x] Therapist Section
+    - [] Adding therapist bio
+- [] Spanish Page
+- [] Google Maps API
+  <!-- - 5-10 dollars ok, anything above, contact Nicolle first -->
+- Service
+  - speciality Menu
+    - [] Breast Massage
+      <!-- - Attached to the basic massage
+      - Notes in chat with Nicolle -->
+    - [] Craniosacral Massage
+    - [] Interoral Massage
+  - [] Add links to specific service types
+    <!-- - Bookings
+      - Book settings(orange)
+        - Services
+          - copy link -->
+
 ## Deployment
 
 We have two main deployment links
