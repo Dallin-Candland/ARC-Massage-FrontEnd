@@ -1,6 +1,5 @@
 import "./giftCard.css";
 import { Alert } from "react-bootstrap";
-
 export default function GiftCards(props) {
   return (
     <>
