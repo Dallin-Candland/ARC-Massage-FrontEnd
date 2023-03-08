@@ -20,6 +20,7 @@ This website is to help my friend build her business. She is opening up her own 
 
 - 1.0 MVP
 - 2.0 Mobile Friendly
+- 2.1 Banners
 
 ## Road Map
 
@@ -30,7 +31,7 @@ This website is to help my friend build her business. She is opening up her own 
 - [x] Insurance
 - Banner
   - [] Dynamic Banners - able to close them
-  - [] Create time based banners
+  - [x] Create time based banners
   - [x] Packages
   - [x] Gift Cards
 - Therapist Page
@@ -46,11 +47,16 @@ This website is to help my friend build her business. She is opening up her own 
       - Notes in chat with Nicolle -->
     - [] Craniosacral Massage
     - [] Interoral Massage
+    - [] Couples massage
+      - [] Note call or text only, no online booking
   - [] Add links to specific service types
     <!-- - Bookings
       - Book settings(orange)
         - Services
           - copy link -->
+- Affiliations
+  - [] Better Business Bureau
+  - [] Renton Chamber of Commerce 
 
 ## Deployment
 
