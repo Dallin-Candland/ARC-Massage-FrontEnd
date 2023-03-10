@@ -9,6 +9,7 @@ const GoogleMaps = () => {
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
         className="googleMaps"
+        title="google maps"
       ></iframe>
   );
 };
