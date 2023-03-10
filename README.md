@@ -38,7 +38,7 @@ This website is to help my friend build her business. She is opening up her own 
   - [x] Therapist Section
     - [] Adding therapist bio
 - [] Spanish Page
-- [] Google Maps API
+- [x] Google Maps API
   <!-- - 5-10 dollars ok, anything above, contact Nicolle first -->
 - Service
   - speciality Menu
