@@ -34,6 +34,7 @@ This website is to help my friend build her business. She is opening up her own 
   - [x] Create time based banners
   - [x] Packages
   - [x] Gift Cards
+  - [x] Esthetician banner
 - Therapist Page
   - [x] Therapist Section
     - [] Adding therapist bio
@@ -42,6 +43,7 @@ This website is to help my friend build her business. She is opening up her own 
   <!-- - 5-10 dollars ok, anything above, contact Nicolle first -->
 - Service
   - speciality Menu
+    - [x] Esthetician Services
     - [] Breast Massage
       <!-- - Attached to the basic massage
       - Notes in chat with Nicolle -->
