@@ -1,20 +1,25 @@
-import PackageSale from "./sale/PackageSale";
+import EstheticSale from './esthetic/esthetic';
 
-let setDate = new Date("January 15, 23 01:00:40 GMT+00:00");
-let endDate = setDate.getTime();
+let setEndDate = new Date('April 26, 23 01:00:40 GMT+00:00');
+let temp = new Date('March 27, 23 01:00:40 GMT+00:00');
+
+
+
+let setStartDate = new Date('March 22, 23 01:00:40 GMT+00:00');
+
+let startDate = setStartDate.getTime();
+let endDate = setEndDate.getTime();
 let now = Date.now();
-
-let difference = endDate - now;
 
 export default function Banner(props) {
   return (
     <>
-      {difference > 0 ? (
+      {now > startDate && now < endDate ? (
         <>
-          <PackageSale />
+          <EstheticSale />
         </>
       ) : (
-        ""
+        ''
       )}
     </>
   );
