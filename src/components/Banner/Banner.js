@@ -1,7 +1,8 @@
-import EstheticSale from './esthetic/esthetic';
+import MothersDay from './mothersDay/MothersDay'
 
-let setEndDate = new Date('April 26, 23 01:00:40 GMT+00:00');
-let setStartDate = new Date('March 27, 23 01:00:40 GMT+00:00');
+/* Year Month Day TIME(T) Hour Minute Seconds*/
+let setStartDate = new Date('2023-05-01T00:00:01');
+let setEndDate = new Date('2023-05-13T23:59:00');
 
 
 let startDate = setStartDate.getTime();
@@ -13,7 +14,7 @@ export default function Banner(props) {
     <>
       {now > startDate && now < endDate ? (
         <>
-          <EstheticSale />
+          <MothersDay />
         </>
       ) : (
         ''

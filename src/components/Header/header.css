@@ -52,9 +52,14 @@ header {
   padding: 15px 30px;
 }
 
+.linkComponentDropdown {
+  background-color: rgba(222,223,223, 0.3);
+  color: rgb(241, 241, 241);
+}
+
 .linkComponent:hover {
   background-color: rgb(174, 174, 175);
-  color: rgb(78, 77, 75);
+  color: rgb(108, 116, 158);
   transition: .8s;
   border-radius: 10px;
 }
@@ -65,6 +70,7 @@ header {
   padding: 15px 0px;
   text-shadow: 1px 1px #000000;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background-color: red; */
   background-color: rgba(159, 161, 161, 0.3);
 }
 
