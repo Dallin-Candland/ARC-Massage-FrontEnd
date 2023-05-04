@@ -12,8 +12,14 @@
 }
 
 .card {
-  /* position: relative; */
   padding-top: 140px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 400px;
+}
+
+.cardEsthetics {
+  /* Padding creates space for image */
+  padding-top: 0px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   min-height: 400px;
 }
@@ -69,6 +75,16 @@
   background-color: rgb(40, 54, 107);
   color: white;
   transition: .8s;
+}
+
+
+.bannerHeader {
+  /* border: red solid 5px; */
+}
+
+.dropdownButton {
+  background-color: rgba(159, 161, 161, 0.3);
+  /* background-color: red; */
 }
 
 @media (max-width:1200px) {
