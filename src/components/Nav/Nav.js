@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Intakeq from '../intakeq/intakeq';
-import Dropdown from 'react-bootstrap/Dropdown';
 
 export default function Nav(props) {
   const [open, setOpen] = useState(false);
