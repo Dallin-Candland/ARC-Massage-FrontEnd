@@ -1,18 +1,17 @@
-import "./esthetic.css";
 import { Alert } from "react-bootstrap";
 
 let Sale = (
   <p>
      <p>
-        We are pleased to welcome our new <strong>Esthetician, Maya</strong>!
+        Treat Mom for her Special Day!
       </p>
     <p>
-      Recieve a <strong>FREE</strong> brow wax on us when you purchase a facial with a value of $150 or more
+      Buy a giftcard of $125 or more <br />
+      Get Mom a <strong>Free Gift Bag</strong>!
     </p>
-    <p>This special wont last long, grab them before April 26th!</p>
+    <p>This special wont last long, grab them before May 13th!</p>
     <p>
-      Check our full lineup of our new esthecian services! 
-      {/* Link to estiticiation page? */}
+     
     </p>
   </p>
 );
@@ -23,7 +22,7 @@ export default function EstheticSale(props) {
       <Alert variant="warning">
         <div className="width1024 packageBanner">
           <section className='bannerHeader'>
-          <Alert.Heading>Now Offering Esthetician Services</Alert.Heading>
+          <Alert.Heading>Mothers Day Sale going on Now!</Alert.Heading>
           </section>
 
           {Sale}

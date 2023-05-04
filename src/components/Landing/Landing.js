@@ -8,6 +8,7 @@ import Medical from '../Medical/Medical';
 import Services from "../Services/Services";
 import "./landing.css";
 import Banner from '../Banner/Banner';
+import EstheticServices from '../Services/EstheticService'
 
 
 export default function Landing(props) {
@@ -23,7 +24,7 @@ export default function Landing(props) {
           path="/location"
           element={
             <>
-              <Header />
+              <Header fontColor={'rgb(108, 116, 158)'}/>
               <Banner />
               <Location />
             </>
@@ -36,9 +37,22 @@ export default function Landing(props) {
           path="/services"
           element={
             <>
-              <Header />
+              <Header fontColor={'rgb(108, 116, 158)'}/>
               <Banner />
               <Services />
+            </>
+          }
+        />
+      </Routes>
+
+      <Routes>
+        <Route
+          path="/estheticServices"
+          element={
+            <>
+              <Header fontColor={'rgb(108, 116, 158)'}/>
+              <Banner />
+              <EstheticServices />
             </>
           }
         />
@@ -49,7 +63,7 @@ export default function Landing(props) {
           path="/medical"
           element={
             <>
-              <Header />
+              <Header fontColor={'rgb(108, 116, 158)'}/>
               <Banner />
               <Medical />
             </>
@@ -62,7 +76,7 @@ export default function Landing(props) {
           path="/about"
           element={
             <>
-              <Header />
+              <Header fontColor={'rgb(108, 116, 158)'}/>
               <Banner />
               <About />
             </>

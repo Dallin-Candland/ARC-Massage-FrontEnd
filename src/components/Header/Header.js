@@ -4,6 +4,7 @@ import Nav from "../Nav/Nav";
 import "./header.css";
 
 export default function Header(props) {
+  console.log('props.fontColor in Header', props.fontColor);
   return (
     <header>
       <Link to="/">
@@ -11,7 +12,7 @@ export default function Header(props) {
       </Link>
 
       <nav className="navHeader">
-        <Nav />
+        <Nav fontColor={props.fontColor}/>
       </nav>
     </header>
   );
