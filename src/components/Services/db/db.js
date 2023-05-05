@@ -1,7 +1,7 @@
 import cupping1 from '../img/sessionsImg/cupping1.jpg'
 import cupping2 from '../img/sessionsImg/cupping2.jpg'
 import cupping3 from '../img/sessionsImg/cupping3.jpg'
-// import cupping4 from '../img/sessionsImg/cupping4.jpg'
+import cupping4 from '../img/sessionsImg/cupping4.jpg'
 
 import massage1 from '../img/sessionsImg/massage1.png'
 import massage2 from '../img/sessionsImg/massage2.jpg'
@@ -76,27 +76,27 @@ export const db = [
     cost: 300,
     type: 'lymphatic'
   },
-  {
-    title: '30 Minute Cupping Massage',
-    image: cupping1,
-    bio: 'Cups are applied to focus areas using suction. Treats muscle soreness and reduces tension.',
-    cost: 65,
-    type: 'cupping'
-  },
-  {
-    title: '60 Minute Cupping Massage',
-    image: cupping2,
-    bio: 'Cups are applied to focus areas using suction. Treats muscle soreness and reduces tension.',
-    cost: 130,
-    type: 'cupping'
-  },
-  {
-    title: '90 Minute Cupping Massage',
-    image: cupping3,
-    bio: 'Cups are applied to focus areas using suction. Treats muscle soreness and reduces tension.',
-    cost: 185,
-    type: 'cupping'
-  },
+  // {
+  //   title: '30 Minute Cupping Massage',
+  //   image: cupping1,
+  //   bio: 'Cups are applied to focus areas using suction. Treats muscle soreness and reduces tension.',
+  //   cost: 65,
+  //   type: 'cupping'
+  // },
+  // {
+  //   title: '60 Minute Cupping Massage',
+  //   image: cupping2,
+  //   bio: 'Cups are applied to focus areas using suction. Treats muscle soreness and reduces tension.',
+  //   cost: 130,
+  //   type: 'cupping'
+  // },
+  // {
+  //   title: '90 Minute Cupping Massage',
+  //   image: cupping3,
+  //   bio: 'Cups are applied to focus areas using suction. Treats muscle soreness and reduces tension.',
+  //   cost: 185,
+  //   type: 'cupping'
+  // },
   {
     title: '60 Minute Prenatal Massage',
     image: prenatal1,
@@ -127,14 +127,14 @@ export const db = [
     cost: 10,
     type: 'enhancement'
   },
-  // {
-  //   title: 'Cupping Spot Treatment',
-  //   image: cupping4,
-  //   addOn: '[Add On]',
-  //   bio: 'Cups are applied to focus areas using suction. Treats muscle soreness and reduces tension.',
-  //   cost: 25,
-  //   type: 'enhancement'
-  // },
+  {
+    title: 'Cupping Spot Treatment',
+    image: cupping4,
+    addOn: '[Add On]',
+    bio: 'Cups are applied to focus areas using suction. Treats muscle soreness and reduces tension.',
+    cost: 25,
+    type: 'enhancement'
+  },
   {
     title: 'Aromatherapy',
     image: aromatherapy,

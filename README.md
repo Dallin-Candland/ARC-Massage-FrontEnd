@@ -34,7 +34,8 @@ This website is to help my friend build her business. She is opening up her own 
   - [x] Create time based banners
   - [x] Packages
   - [x] Gift Cards
-  - [x] Esthetician banner
+  - [x] Esthetician
+  - [x] Mothers Day
 - Therapist Page
   - [x] Therapist Section
     - [] Adding therapist bio
@@ -47,8 +48,8 @@ This website is to help my friend build her business. She is opening up her own 
     - [] Breast Massage
       <!-- - Attached to the basic massage
       - Notes in chat with Nicolle -->
-    - [] Craniosacral Massage
-    - [] Interoral Massage
+    - []s Craniosacral Massage
+    - [] Interoral Masage
     - [] Couples massage
       - [] Note call or text only, no online booking
   - [] Add links to specific service types
@@ -56,6 +57,14 @@ This website is to help my friend build her business. She is opening up her own 
       - Book settings(orange)
         - Services
           - copy link -->
+  - Services
+    - [] Move cupping into enhancements
+    - [] Change cupping to intraoral
+      - [] Get wording for intraoral
+    - [] Combine Services
+      - [] Hover to see descriptions?
+  - Footer
+    - [] Update year to automatically change 2022 to 2023 example
 - Affiliations
   - [] Better Business Bureau
   - [] Renton Chamber of Commerce 

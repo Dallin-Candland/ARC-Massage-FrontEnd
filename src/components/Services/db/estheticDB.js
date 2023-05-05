@@ -144,13 +144,21 @@ export const db = [
     duration: 30,
   },
   {
-    title: 'Brazilian Maintenance',
+    title: 'Brazilian',
     image: '',
     bio: 'Currently only offered to guests with a vulva. As much or as little as you want off the front. Includes bikini line and butt strip.',
-    cost: 60,
+    cost: 120,
     type: 'wax',
-    duration: 30,
+    duration: 35,
   },
+  // {
+  //   title: 'Brazilian Maintenance',
+  //   image: '',
+  //   bio: 'Currently only offered to guests with a vulva. As much or as little as you want off the front. Includes bikini line and butt strip.',
+  //   cost: 60,
+  //   type: 'wax',
+  //   duration: 30,
+  // },
   {
     title: 'Brow Tint',
     image: '',
@@ -162,7 +170,7 @@ export const db = [
   {
     title: 'Lash Lamination',
     image: '',
-    bio: 'Enhance your natural lashes with our lash treatment',
+    bio: 'Enhance your natural lashes with our lash treatment.',
     cost: 120,
     type: 'lamination',
     duration: 35,
@@ -170,7 +178,7 @@ export const db = [
   {
     title: 'Brow Lamination',
     image: '',
-    bio: 'Enhance your natural brows with our brow treatment',
+    bio: 'Enhance your natural brows with our brow treatment.',
     cost: 20,
     type: 'lamination',
     duration: 30,
@@ -178,7 +186,7 @@ export const db = [
   {
     title: 'Brow and Lash Lamination',
     image: '',
-    bio: 'Enhance your natural brows and lashes with our brow and lash treatment',
+    bio: 'Enhance your natural brows and lashes with our brow and lash treatment.',
     cost: 200,
     type: 'lamination',
     duration: 80,
@@ -194,7 +202,7 @@ export const db = [
   {
     title: 'Lash Tint',
     image: '',
-    bio: 'Lash tinting is a semi-permanent dye is applied to your natural lashes, which will not only highlight your facial features but add a rich color to your lackluster lash line',
+    bio: 'Lash tinting is a semi-permanent dye is applied to your natural lashes, which will not only highlight your facial features but add a rich color to your lackluster lash line.',
     cost: 35,
     type: 'lamination',
     duration: 20,
@@ -205,7 +213,7 @@ export const db = [
     bio: [
       'Save time and tint both your lashes and brows at the same time!',
       'Eyebrow tinting is the process of applying semi-permanent dye to enhance, shape, and define your brows. Brow tinting gives the appearance of thicker, more accentuated brows with the goal being to match your natural brow color whenever possible.',
-      'Lash tinting is a semi-permanent dye is applied to your natural lashes, which will not only highlight your facial features but add a rich color to your lackluster lash line'
+      'Lash tinting is a semi-permanent dye is applied to your natural lashes, which will not only highlight your facial features but add a rich color to your lackluster lash line.'
   ],
     cost: 60,
     type: 'lamination',
@@ -214,7 +222,7 @@ export const db = [
   {
     title: 'Brightening Peel',
     image: '',
-    bio: 'Treat discoloration, dehydration, uneven skin tone and acne with this peel featuring a blend of brightening ingredients such as lactic and kojic acid',
+    bio: 'Treat discoloration, dehydration, uneven skin tone and acne with this peel featuring a blend of brightening ingredients such as lactic and kojic acid.',
     cost: 175,
     type: 'peel',
     duration: 60,
@@ -222,7 +230,7 @@ export const db = [
   {
     title: 'Brightening Peel with Dermaplane',
     image: '',
-    bio: '***Client consultation required*** Treat discoloration, dehydration, uneven skin tone and acne with this peel featuring a blend of brightening ingredients such as lactic and kojic acid',
+    bio: '***Client consultation required*** Treat discoloration, dehydration, uneven skin tone and acne with this peel featuring a blend of brightening ingredients such as lactic and kojic acid.',
     cost: 275,
     type: 'peel',
     duration: 85,
@@ -230,7 +238,7 @@ export const db = [
   {
     title: 'Age Defy Peel',
     image: '',
-    bio: 'Improve fine lines, age spots and discoloration with a blend of glycolic acid and resorcinol in this peel designed to target the signs of aging',
+    bio: 'Improve fine lines, age spots and discoloration with a blend of glycolic acid and resorcinol in this peel designed to target the signs of aging.',
     cost: 175,
     type: 'peel',
     duration: 60,
@@ -238,7 +246,7 @@ export const db = [
   {
     title: 'Age Defy Peel with Dermaplane',
     image: '',
-    bio: '***Client consultation required*** Improve fine lines, age spots and discoloration with a blend of glycolic acid and resorcinol in this peel designed to target the signs of aging',
+    bio: '***Client consultation required*** Improve fine lines, age spots and discoloration with a blend of glycolic acid and resorcinol in this peel designed to target the signs of aging.',
     cost: 275,
     type: 'peel',
     duration: 85,
@@ -246,7 +254,7 @@ export const db = [
   {
     title: 'Acne Peel',
     image: '',
-    bio: 'Best peel option for acne-prone and oily skin types with salicylic and glycolic acids to clear and brighten',
+    bio: 'Best peel option for acne-prone and oily skin types with salicylic and glycolic acids to clear and brighten.',
     cost: 175,
     type: 'peel',
     duration: 60,
@@ -254,7 +262,7 @@ export const db = [
   {
     title: 'Acne Peel with Dermaplane',
     image: '',
-    bio: '***Client consultation required*** Best peel option for acne-prone and oily skin types with salicylic and glycolic acids to clear and brighten',
+    bio: '***Client consultation required*** Best peel option for acne-prone and oily skin types with salicylic and glycolic acids to clear and brighten.',
     cost: 275,
     type: 'peel',
     duration: 85,
@@ -262,7 +270,7 @@ export const db = [
   {
     title: 'High frequency',
     image: '',
-    bio: 'The high frequency is used to treat and prevent stubborn acne, shrink enlarged pores, reduce the appearance of fine lines and wrinkles, decongest puffy eyes, fade dark eye circles and even rejuvenate the condition of the scalp and nourish hair follicles for healthier hair growth',
+    bio: 'The high frequency is used to treat and prevent stubborn acne, shrink enlarged pores, reduce the appearance of fine lines and wrinkles, decongest puffy eyes, fade dark eye circles and even rejuvenate the condition of the scalp and nourish hair follicles for healthier hair growth.',
     cost: 15,
     type: 'enhancement',
     duration: 15,
@@ -270,7 +278,7 @@ export const db = [
   {
     title: 'Red LED',
     image: '',
-    bio: 'Red LED light may reduce inflammation and stimulate the production of collagen, a protein responsible for younger-looking skin that diminishes with age',
+    bio: 'Red LED light may reduce inflammation and stimulate the production of collagen, a protein responsible for younger-looking skin that diminishes with age.',
     cost: 15,
     type: 'enhancement',
     duration: 15,
@@ -278,7 +286,7 @@ export const db = [
   {
     title: 'Ampoules (facial product enhancer)',
     image: '',
-    bio: 'An ampoule is a type of treatment that contains highly-concentrated skincare ingredients. It\'s designed to deliver small, targeted dosages in order to address a particular skin concern, such as skin dryness, discoloration and dark spots, dull skin or wrinkles and other signs of aging',
+    bio: 'An ampoule is a type of treatment that contains highly-concentrated skincare ingredients. It\'s designed to deliver small, targeted dosages in order to address a particular skin concern, such as skin dryness, discoloration and dark spots, dull skin or wrinkles and other signs of aging.',
     cost: 35,
     type: 'enhancement',
     duration: 15,
@@ -286,7 +294,7 @@ export const db = [
   {
     title: 'Back facial as add on',
     image: '',
-    bio: 'Enhance any facial by treating your back with a stimulating massage, steam, and hydrating mask. All your skin deserves to feel beautiful',
+    bio: 'Enhance any facial by treating your back with a stimulating massage, steam, and hydrating mask. All your skin deserves to feel beautiful.',
     cost: 80,
     type: 'enhancement',
     duration: 45,
