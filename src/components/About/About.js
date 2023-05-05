@@ -1,8 +1,10 @@
 import { Grid } from "@mui/material";
 import { intro, hours, policy } from "../About/db/db";
 import "./about.css";
+import { Card } from '@mui/material";
 
 export default function About(props) {
+  
   const introSection = intro.map((el) => {
     return <div className="infoParagraph">{el}</div>;
   });
