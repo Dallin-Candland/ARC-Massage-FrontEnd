@@ -1,7 +1,6 @@
 import { Grid } from "@mui/material";
 import { intro, hours, policy } from "../About/db/db";
 import "./about.css";
-import { Card } from '@mui/material";
 
 export default function About(props) {
   
