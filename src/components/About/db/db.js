@@ -31,7 +31,7 @@ export const policy = [
 export const hours = [
   {
     day: "Monday",
-    hours: "9:00am - 4:30pm Appointments only",
+    hours: "9:00am - 8:00pm Appointments only",
   },
   {
     day: "Tuesday",
@@ -42,13 +42,13 @@ export const hours = [
     hours: "9:00am - 4:30pm Appointments only",
   },
   {
-    day: "Thursday - Friday",
+    day: "Thursday",
     hours: "9:00am - 8:00pm Appointments only",
   },
-  // {
-  //   day: 'Friday',
-  //   hours: '9:00am - 8:00pm Appointments only'
-  // },
+  {
+    day: 'Friday',
+    hours: '9:00am - 8:00pm Appointments only'
+  },
   {
     day: "Saturday",
     hours: "8:00am - 2:00pm Appointments only",
@@ -63,5 +63,5 @@ export const intro = [
   "A better future awaits",
   "We are new!",
   "We're bending the curve for massage therapy by providing care to all people, including those that feel they cannot make the time. We plan to provide childcare for those that deserve a moment to rejuvenate. Our business is new, and there is still much work that needs done to reach our goals to be convenient in all respects.",
-  "For all other inquiries, please call or email to contact us.",
+  "For all other inquiries, please call/text or email to contact us.",
 ];

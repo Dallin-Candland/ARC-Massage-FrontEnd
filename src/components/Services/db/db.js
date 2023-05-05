@@ -1,6 +1,6 @@
-import cupping1 from '../img/sessionsImg/cupping1.jpg'
-import cupping2 from '../img/sessionsImg/cupping2.jpg'
-import cupping3 from '../img/sessionsImg/cupping3.jpg'
+// import cupping1 from '../img/sessionsImg/cupping1.jpg'
+// import cupping2 from '../img/sessionsImg/cupping2.jpg'
+// import cupping3 from '../img/sessionsImg/cupping3.jpg'
 import cupping4 from '../img/sessionsImg/cupping4.jpg'
 
 import massage1 from '../img/sessionsImg/massage1.png'
