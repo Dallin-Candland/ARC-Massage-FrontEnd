@@ -4,7 +4,6 @@ import Intakeq from '../intakeq/intakeq';
 
 export default function Nav(props) {
   const [open, setOpen] = useState(false);
-  console.log('props.fontColor', props.fontColor);
 
   return (
     <>

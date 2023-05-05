@@ -29,9 +29,8 @@ export default function EstheticServices(props) {
               </Typography>
               <Typography>{el.addOn && el.addOn}</Typography>
               <Typography variant="body2" color="text.secondary">
-                {el.bio}
 
-                {Array.isArray(el.bio) ? el.bio.map((el) => el.bio) : el.bio}
+                {Array.isArray(el.bio) ? el.bio.map((el) => el) : el.bio}
               </Typography>
             </CardContent>
             <CardActions>

@@ -83,7 +83,7 @@ export default function Footer(props) {
             </a>
           </section>
           <div className="copyright">
-            &#169; 2022 ARC Massage and Family Wellness Center, LLC
+            &#169; 2023 ARC Massage and Family Wellness Center, LLC
           </div>
           <div className="copyright">All Rights Reserved</div>
         </div>

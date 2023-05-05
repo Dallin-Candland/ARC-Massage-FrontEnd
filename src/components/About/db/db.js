@@ -63,5 +63,5 @@ export const intro = [
   "A better future awaits",
   "We are new!",
   "We're bending the curve for massage therapy by providing care to all people, including those that feel they cannot make the time. We plan to provide childcare for those that deserve a moment to rejuvenate. Our business is new, and there is still much work that needs done to reach our goals to be convenient in all respects.",
-  "For all other inquiries, please call or email to contact us.",
+  "For all other inquiries, please call/text or email to contact us.",
 ];
