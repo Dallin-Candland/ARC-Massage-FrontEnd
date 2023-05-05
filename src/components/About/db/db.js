@@ -31,7 +31,7 @@ export const policy = [
 export const hours = [
   {
     day: "Monday",
-    hours: "9:00am - 4:30pm Appointments only",
+    hours: "9:00am - 8:00pm Appointments only",
   },
   {
     day: "Tuesday",
@@ -42,13 +42,13 @@ export const hours = [
     hours: "9:00am - 4:30pm Appointments only",
   },
   {
-    day: "Thursday - Friday",
+    day: "Thursday",
     hours: "9:00am - 8:00pm Appointments only",
   },
-  // {
-  //   day: 'Friday',
-  //   hours: '9:00am - 8:00pm Appointments only'
-  // },
+  {
+    day: 'Friday',
+    hours: '9:00am - 8:00pm Appointments only'
+  },
   {
     day: "Saturday",
     hours: "8:00am - 2:00pm Appointments only",
